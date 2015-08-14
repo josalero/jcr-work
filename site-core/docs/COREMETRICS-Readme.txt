@@ -1,0 +1,1 @@
+cat asset-inventory-raw.log | grep "COREMETRICS:" | awk -F\| '{printf ("%s,%s,%s,%s,%s,%s,%s\n", $2, $3, $4, $5, $6, $7, $8, $9)}' | sed 's/\[//g' | sed 's/\]//g' > asset-inventory-2012-04-13.csv

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US"
+	xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[image-text-tile-1]]></id>
+	<cms-id><![CDATA[40002]]></cms-id>
+
+	<template><![CDATA[image-text-tile]]></template>
+
+	<content-type><![CDATA[image-text-tile]]></content-type>
+
+	<metadata>
+		<authored-date><![CDATA[2012-01-05T16:00:00Z]]></authored-date>
+		<published-date><![CDATA[2012-01-05T16:00:00Z]]></published-date>
+		<expiration-date><![CDATA[2012-01-05T16:00:00Z]]></expiration-date>
+	</metadata>
+
+	<image-text-tile>
+		<primary-headline></primary-headline>
+ 		<text-tile>
+			<heading><![CDATA[Sample text head]]></heading>
+	 		<paragraph>
+	 			<![CDATA[Some paragraph text]]>
+	 		</paragraph>
+		</text-tile>
+ 		
+		<!-- Images -->
+		<images>
+			<image>
+				<path><![CDATA[/assets/images/img-text.jpg]]></path>
+				<alt-text><![CDATA[Our Story Factoid]]></alt-text>
+			 
+			</image>
+		</images>
+ 	</image-text-tile>
+
+</content-item>

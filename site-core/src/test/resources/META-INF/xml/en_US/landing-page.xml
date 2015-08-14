@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[landing_page]]></id>
+	<cms-id><![CDATA[10002]]></cms-id>
+	<template><![CDATA[landing_page]]></template>
+	<content-type><![CDATA[page]]></content-type>
+
+	<metadata>
+		<htmltitle><![CDATA[Employee Experience | Home]]></htmltitle>
+		<metakeywords><![CDATA[BofA Employee Experience | Home]]></metakeywords>
+		<metadescription><![CDATA[Redifining BofA Employee Experience.]]></metadescription>
+	</metadata>
+
+	<page>
+		<page-name><![CDATA[Employee Experience Intro]]></page-name>
+		<panels>
+			<panel>
+				<sections>
+					<section>
+						<paragraph>
+							<heading>
+								<![CDATA[We&#8217;re&nbsp;better when we&#8217;re&nbsp;connected.]]>
+							</heading>
+						</paragraph>
+					</section>
+					
+					<section>
+						<paragraph>
+							<heading>
+								<![CDATA[Take a moment to see what we've all have been up to.]]>
+							</heading>
+						</paragraph>
+						<tiles>
+							<!-- Image tiles with Caption and Link -->
+							<tile-id><![CDATA[50001]]></tile-id>
+							<tile-id><![CDATA[50002]]></tile-id>
+							<tile-id><![CDATA[50003]]></tile-id>
+						</tiles>
+					</section>
+				</sections>
+			</panel>
+		</panels>
+	</page>
+</content-item>	
+	

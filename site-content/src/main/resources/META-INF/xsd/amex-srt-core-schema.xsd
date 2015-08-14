@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<xs:schema elementFormDefault="qualified" targetNamespace="http://www.amex.com/srt/content" xmlns="http://www.amex.com/srt/content" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:include schemaLocation="amex-srt-common-schema.xsd" />
+
+	<xs:simpleType name="contentTypeEnum">
+	
+		<xs:restriction base="xs:string">
+			
+			<xs:enumeration value="page" />
+
+			<xs:enumeration value="tiles" />
+			<xs:enumeration value="link" />
+
+			<!-- Navigation Content Types -->
+			<xs:enumeration value="navigation" />
+
+		</xs:restriction>
+	</xs:simpleType>
+
+	
+	<xs:simpleType name="yesNoEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="yes" />
+			<xs:enumeration value="no" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="metadata">
+		<xs:sequence>
+			<xs:element name="htmltitle" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="ada-friendly-name" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="canonical-url" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element maxOccurs="1" minOccurs="0" name="metakeywords" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>SEO Meta-Keywords to be inserted into the HEAD
+						section of the HTML document.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+
+			<xs:element name="metadescription" type="xs:string" minOccurs="0" maxOccurs="1" />
+
+			<xs:element name="authored-date" type="xs:dateTime" minOccurs="0" maxOccurs="1" />
+			<xs:element name="published-date" type="xs:dateTime" minOccurs="0" maxOccurs="1" />
+			<xs:element name="expiration-date" type="xs:dateTime" minOccurs="0" maxOccurs="1" />
+			
+			<!-- Taxonomy -->
+			<xs:element name="geo-taxonomy" type="xs:string" minOccurs="0" maxOccurs="1" />
+			
+		</xs:sequence>
+
+	</xs:complexType>
+
+
+	<xs:element name="content-item" type="contentItem" />
+
+	<xs:complexType name="contentItem">
+		<xs:sequence>
+			<xs:element name="id" type="xs:string" />
+			<xs:element name="cms-id" type="xs:string" />
+			<xs:element name="template" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="content-type" type="contentTypeEnum" minOccurs="1" maxOccurs="1" />
+			<xs:element name="jcr-path" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="url" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="metadata" type="metadata" minOccurs="0" maxOccurs="1" />
+			<xs:element name="page-path" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element ref="content" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="contentBase">
+		<xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="content" type="contentBase" />
+	
+</xs:schema>
+	

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[commitment_video_page]]></id>
+	<cms-id><![CDATA[10003]]></cms-id>
+	<template><![CDATA[commitment_video_page]]></template>
+	<content-type><![CDATA[page]]></content-type>
+
+	<metadata>
+		<htmltitle><![CDATA[Online Employee Experience | Commitments]]></htmltitle>
+		<metakeywords><![CDATA[Online Employee Experience | Commitments]]></metakeywords>
+		<metadescription><![CDATA[Online Employee Experience Bank of America employee commitments.]]></metadescription>
+	</metadata>
+
+	<page>
+		<page-name><![CDATA[Our Commitments Video]]></page-name>
+		<panels>
+			<panel>
+				<sections>
+ 					<section>
+						<paragraph>
+								<heading>
+								<![CDATA["Our Commitments represent <i>how</i> we deliver our strategy and operating principles to serve customers, clients, communities and employees."]]>
+								</heading>
+						</paragraph>
+						<tiles>
+							<!-- video -->
+							<tile-id><![CDATA[40005]]></tile-id>
+							<!-- Signature and Text -->
+							<tile-id><![CDATA[40006]]></tile-id>
+	 					</tiles>
+					</section>
+				</sections>
+			</panel>			
+		</panels>
+	</page>
+</content-item>	
+	

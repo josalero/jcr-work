@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[index]]></id>
+
+	<cms-id>10001</cms-id>
+
+	<template><![CDATA[index]]></template>
+	<content-type><![CDATA[page]]></content-type>
+	
+	<metadata>
+		<htmltitle><![CDATA[About Bank of America | Service, Commitment & Philanthropy]]></htmltitle>
+		<metakeywords><![CDATA[about bank of america, philanthropy]]></metakeywords>
+		<metadescription><![CDATA[Discover how Bank of America is strengthening communities through lending, investing and giving. Learn how we are doing more every day.]]></metadescription>
+	</metadata>
+	
+	<indexpage>
+		<page-name><![CDATA[Employee Experience Home]]></page-name>
+		
+		<intro-animation>
+			<segment>
+				<![CDATA[We are better]]>
+			</segment>
+			<segment>
+				<![CDATA[when]]>
+			</segment>
+			<segment>
+				<![CDATA[we're]]>
+			</segment>
+			<segment>
+				<![CDATA[connected.]]>
+			</segment>
+		</intro-animation>
+		
+		
+		<pages>
+			<!-- landing_page -->
+			<page-cms-id><![CDATA[10002]]></page-cms-id>
+			<!-- commitments_video_page -->
+			<page-cms-id><![CDATA[10003]]></page-cms-id>
+			<!-- commitments_page -->
+			<page-cms-id><![CDATA[10004]]></page-cms-id>
+			<!-- gallery_page -->
+			<page-cms-id><![CDATA[10006]]></page-cms-id>
+			<!-- leaders page -->
+			<page-cms-id><![CDATA[10007]]></page-cms-id>
+
+		</pages>
+ 	</indexpage>	
+</content-item>

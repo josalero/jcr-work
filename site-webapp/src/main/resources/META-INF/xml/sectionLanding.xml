@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section-landing locale="en_US"
+	xmlns="http://www.bac.com/flag/enterprise/content">
+	<id><![CDATA[our-story]]></id>
+	<metadata>
+		<metakeywords><![CDATA[about Bank of America, Bank of America Story, Bank of America, about BofA]]></metakeywords>
+		<metadescription><![CDATA[Find out more about Bank of America as a company. Learn about the bank, from career opportunities and community involvement to news and investor relations.]]></metadescription>
+		<htmltitle><![CDATA[About Bank of America | Make Opportunity Possible | Our Story]]></htmltitle>
+	</metadata>
+	<content>
+		<masthead-image>
+			<path><![CDATA[../images/test/our-story-big.png]]></path>
+			<alt-text><![CDATA[ Testing Marshaller ]]></alt-text>
+		</masthead-image>
+		<page-title><![CDATA[Working to help make opportunity possible for you]]></page-title>
+		<introduction-content>
+			<![CDATA[<p>At Bank of America we are committed to helping our customers and clients achieve their opportunities at every stage of their financial life.As a company we have taken several actions to get back to fundamentals,to become a stronger bank.While we have made progress in many areas, there is more work for us to do.In the United States,we are addressing the foreclosure crisis and related issues through a national;community revitalization strategy;we are actively lending and investing across the nation including extending capital to consumers,wide businesses, large companies and others; and we are supporting workforce development efforts,hunger causes and neighborhood preservation through philanthropic&nbsp; giving.And around the world, we are committed to the regions in which we do business with broad capabilities, and commitments to being a socially responsible partner.</p>]]>
+		</introduction-content>
+		<body-content-container>
+			<body-content>
+				<heading><![CDATA[Who We Are]]></heading>
+				<image>
+					<path><![CDATA[../images/test/who-we-are-wide.png]]></path>
+					<alt-text><![CDATA[Who We Are]]></alt-text>
+				</image>
+				<description><![CDATA[<p>Our vision is to become the finest financial services company in the world</p>]]></description>
+				<link>
+					<link-url><![CDATA[/our-story/who-we-are.html]]></link-url>
+					<link-target><![CDATA[_blank]]></link-target>
+				</link>
+			</body-content>
+			<body-content>
+				<heading><![CDATA[What We Do]]></heading>
+				<image>
+					<path><![CDATA[../images/test/what-we-do-wide.png]]></path>
+					<alt-text><![CDATA[What We Do	]]></alt-text>
+				</image>
+				<description><![CDATA[<p>Our purpose is to help make opportunity possible for customers and clients and every stage of their financial lives</p>]]></description>
+				<link>
+					<link-url><![CDATA[/our-story/what-we-do.html]]></link-url>
+					<link-target><![CDATA[_blank]]></link-target>
+				</link>
+			</body-content>
+			<body-content>
+				<heading><![CDATA[Who We Serve]]></heading>
+				<image>
+					<path><![CDATA[../images/test/who-we-serve-wide.png]]></path>
+					<alt-text><![CDATA[Who We Serve]]></alt-text>
+				</image>
+				<description><![CDATA[<p>Strategic mergers have enabled us to better serve individuals, companies, institutional investors and stakeholders in every region of the world</p>]]></description>
+				<link>
+					<link-url><![CDATA[/our-story/who-we-serve.html]]></link-url>
+					<link-target><![CDATA[_blank]]></link-target>
+				</link>
+			</body-content>
+			<body-content>
+				<heading><![CDATA[How We Work]]></heading>
+				<image>
+					<path><![CDATA[../images/test/how-we-work-wide.png]]></path>
+					<alt-text><![CDATA[How We Work]]></alt-text>
+				</image>
+				<description><![CDATA[<p>With every customer interaction we want to demonstrate that we have our customers and client&rsquo;s best interests in mind</p>]]></description>
+				<link>
+					<link-url><![CDATA[/our-story/how-we-work.html]]></link-url>
+					<link-target><![CDATA[_new]]></link-target>
+				</link>
+			</body-content>
+			<body-content>
+				<heading><![CDATA[Where We Are]]></heading>
+				<image>
+					<path><![CDATA[../images/test/where-we-are-wide.png]]></path>
+					<alt-text><![CDATA[Where We Are]]></alt-text>
+				</image>
+				<description><![CDATA[<p>We&rsquo;re around the world, and practically around the corner.We have 5,800 branches and 18,000,ATMs in the U.S.Over 30 million active users count on our award-winning online banking. Big picture: we&rsquo;re in 40 countries,providing comprehensive market, industry, product and advisory expertise to more than 140,000 businesses around the globe</p>]]></description>
+				<link>
+					<link-url><![CDATA[/our-story/where-we-are.html]]></link-url>
+					<link-target><![CDATA[_new]]></link-target>
+				</link>
+			</body-content>
+		</body-content-container>
+		<tile-id><![CDATA[]]>
+		</tile-id>
+		<useful-links>
+			<useful-link-id><![CDATA[learn-more]]></useful-link-id>
+			<useful-link-id><![CDATA[news-and-views]]></useful-link-id>
+			<useful-link-id><![CDATA[careers]]></useful-link-id>
+		</useful-links>
+	</content>
+</section-landing>

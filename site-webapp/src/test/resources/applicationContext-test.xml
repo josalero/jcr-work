@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+	"-//SPRING//DTD BEAN//EN" 
+	"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<import resource="classpath:/applicationContext.xml" />
+	
+	<bean id="indexAction" class="com.flag.oee.struts.action.IndexAction">
+		<property name="navigationService" ref="navigationService" />
+	</bean>
+
+	<bean id="navigationUnmarshaller" class="org.springframework.oxm.jibx.JibxMarshaller">
+        <property name="targetClass" value="com.bac.flag.oee.content.NavigationType"/>
+    </bean>
+
+</beans>
+

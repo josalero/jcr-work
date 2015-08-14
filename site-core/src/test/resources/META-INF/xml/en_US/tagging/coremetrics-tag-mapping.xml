@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tag-container xmlns="http://www.bac.com/oee/content">
+	<tag-item>
+		<cms-path>/xml/en_US/our-story.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>Our Story</category>
+		<name>Our Story</name>
+		<page-path>our-story</page-path>
+		<tag-name>ENT:MKT:CorpRep;OurStory</tag-name>
+		<tag-type>Coremetrics</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/partnering-locally.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>Partnering Locally</category>
+		<name>Partnering Locally</name>
+		<page-path>partnering-locally</page-path>
+		<tag-name>ENT:MKT:CorpRep;PartneringLocally</tag-name>
+		<tag-type>Coremetrics</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/points-of-view.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>Points Of View</category>
+		<name>Points Of View</name>
+		<page-path>points-of-view</page-path>
+		<tag-name>ENT:MKT:CorpRep;PointsOfView</tag-name>
+		<tag-type>Coremetrics</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/global-impact.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>Global Impact</category>
+		<name>Global Impact</name>
+		<page-path>global-impact</page-path>
+		<tag-name>ENT:MKT:CorpRep;GlobalImpact</tag-name>
+		<tag-type>Coremetrics</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/global-impact.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>cr-en302</category>
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>Dart</tag-type>
+		<dart-src>1359940.0</dart-src>
+		<dart-type>enter783</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>home</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>home</category>
+		<name>home</name>
+		<page-path>home</page-path>
+		<tag-name>ENT:HOME:CorpRep;Home</tag-name>
+		<tag-type>Coremetrics</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>home</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>cr-en303</category>
+		<name />
+		<page-path />
+		<tag-name>ENT:HOME:CorpRep;Home</tag-name>
+		<tag-type>Dart</tag-type>
+		<dart-src>1359941.0</dart-src>
+		<dart-type>enter784</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>error404</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>error404</category>
+		<name>home</name>
+		<page-path>home</page-path>
+		<tag-name>ENT:HOME:CorpRep;Error404</tag-name>
+		<tag-type>Coremetrics</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>error404</cms-path>
+		<type>oee:Page</type>
+		<level>L2</level>
+		<category>cr-en304</category>
+		<name />
+		<page-path />
+		<tag-name>ENT:HOME:CorpRep;Error404</tag-name>
+		<tag-type>Dart</tag-type>
+		<dart-src>1359942.0</dart-src>
+		<dart-type>enter785</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/partnering-locally/sports-and-entertainment.xml
+		</cms-path>
+		<type>oee:Page</type>
+		<level>L3</level>
+		<category>cr-en231 </category>
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>Dart</tag-type>
+		<dart-src>1359940.0</dart-src>
+		<dart-type>enter782</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/partnering-locally/environment.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L3</level>
+		<category>cr-en231 </category>
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>Dart</tag-type>
+		<dart-src>1359940.0</dart-src>
+		<dart-type>enter782</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/partnering-locally/utah.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L3</level>
+		<category>cr-en906 </category>
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>Dart</tag-type>
+		<dart-src>1359940.0</dart-src>
+		<dart-type>enter782</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/partnering-locally/florida.xml</cms-path>
+		<type>oee:Page</type>
+		<level>L3</level>
+		<category>cr-en906 </category>
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>Dart</tag-type>
+		<dart-src>1359940.0</dart-src>
+		<dart-type>enter782</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>home</cms-path>
+		<type />
+		<level />
+		<category>home</category>
+		<name />
+		<page-path />
+		<tag-name>ENT:HOME:CorpRep;Home</tag-name>
+		<tag-type>CoremetricsShare </tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/our-story.xml</cms-path>
+		<type />
+		<level />
+		<category>our story</category>
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>DartShare</tag-type>
+		<dart-src>1359943.0</dart-src>
+		<dart-type>enter786</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/xml/en_US/partnering-locally.xml</cms-path>
+		<type />
+		<level />
+		<category>Partnering Locally</category>
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>DartShare</tag-type>
+		<dart-src>1359944.0</dart-src>
+		<dart-type>enter787</dart-type>
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>/pdf/Arizona_StateFactSheet.pdf</cms-path>
+		<type />
+		<level />
+		<category />
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>PdfDownload</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start />
+		<video-end />
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>ENT:MKT:CorpRep;PartneringLocally_Baltimore_Video</cms-path>
+		<type />
+		<level />
+		<category />
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>Video</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start>'VidStart',1,'ENT:MKT:CorpRep;PartneringLocally_Baltimore_Video',0,null,null,null,null
+		</video-start>
+		<video-end>'VidEnd',2,'ENT:MKT:CorpRep;PartneringLocally_Baltimore_Video',0,null,null,null,null
+		</video-end>
+		<video-pause />
+	</tag-item>
+	<tag-item>
+		<cms-path>ENT:MKT:CorpRep;PartneringLocally_Boston_Video</cms-path>
+		<type />
+		<level />
+		<category />
+		<name />
+		<page-path />
+		<tag-name />
+		<tag-type>Video</tag-type>
+		<dart-src />
+		<dart-type />
+		<video-start>'VidStart',1,'ENT:MKT:CorpRep;PartneringLocally_Boston_Video',0,null,null,null,null
+		</video-start>
+		<video-end>'VidEnd',2,'ENT:MKT:CorpRep;PartneringLocally_Boston_Video',0,null,null,null,null
+		</video-end>
+		<video-pause />
+	</tag-item>
+</tag-container>

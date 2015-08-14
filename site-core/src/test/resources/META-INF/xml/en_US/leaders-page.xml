@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[download_page]]></id>
+	<cms-id>10007</cms-id>
+	<template>dowanload_page</template>
+	<content-type>page</content-type>
+	
+	<metadata>
+		<htmltitle><![CDATA[About Bank of America | Make Opportunity Possible | Our Story]]></htmltitle>
+		<metakeywords><![CDATA[about Bank of America, Bank of America Story, Bank of America, about BofA]]></metakeywords>
+		<metadescription><![CDATA[Find out more about Bank of America as a company. Learn about the bank, from career opportunities and community involvement to news and investor relations.]]></metadescription>
+	</metadata>
+	
+	<page>
+		<panels>
+			<panel>
+				<sections>
+					<section>
+					   <tiles>
+							 	<tile-id>40001</tile-id>
+								<tile-id>40005</tile-id>
+								<tile-id>40005</tile-id>
+						</tiles>
+					</section>
+					<section>
+						<paragraph>
+							<heading>
+							</heading>
+							<content>
+							</content>
+						</paragraph>
+						<tiles> 
+							<tile-id>40005</tile-id>
+							<tile-id>40005</tile-id> 
+						</tiles>
+					</section>
+				</sections>
+			</panel>
+		</panels>
+	</page>
+</content-item>	
+	

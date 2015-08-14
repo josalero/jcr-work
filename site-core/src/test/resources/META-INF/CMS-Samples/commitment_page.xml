@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+<id><![CDATA[commitment_page]]></id>
+<cms-id>10000018</cms-id>
+<template><![CDATA[commitment_page]]></template>
+<content-type>page</content-type>
+
+
+							
+								
+								
+								<metadata>
+
+										 
+											<htmltitle><![CDATA[Our Commitments-jc-commitment-page-test-0124]]></htmltitle>
+											
+
+										
+												
+
+										 
+												
+
+														
+																	 
+								</metadata>
+
+								
+
+
+
+
+
+
+
+<page>
+
+	
+
+									
+										<page-name><![CDATA[Our Commitments]]></page-name>
+
+			
+
+<panels>
+
+ 
+
+	 <panel>
+
+	 <panel-name><![CDATA[Our Commitments 1. Making interactions easier]]></panel-name>
+
+	<sections>
+
+      
+	
+
+		  <section>
+				
+				
+				
+							
+								
+
+									
+
+									
+										<paragraph>
+
+											
+									 
+												<heading><![CDATA[1. Making interactions easier]]></heading>
+												
+
+
+									 
+												<content><![CDATA[<p>Our dedication to putting customers&rsquo; and clients&rsquo; interests first starts with taking to them directly, simply and in a human, straightforward way they'll understand and appretiate. And it's something we'll never stop trying to improve upon.</p>]]></content>
+												
+
+												
+																															
+										</paragraph>
+								
+									
+									
+								
+								    
+							
+
+				
+
+
+				
+					
+						
+						<tiles>
+						
+
+								    	
+
+												 
+														 
+															<tile-id><![CDATA[40000001]]></tile-id>
+															
+														
+												 
+				
+																
+												
+						 
+						</tiles>
+
+				
+
+
+				
+
+
+				
+					
+						
+						
+
+						
+
+								    	
+
+												<infobox>
+
+																				 
+															
+
+																
+																	<anchor>
+
+																	 
+																				<text><![CDATA[For our<br />consumer customers]]></text>
+																				
+
+																		  
+																				
+																			
+																			
+																	</anchor>
+																
+																
+																
+
+																
+
+															 
+															  
+																	<info-text><![CDATA[* No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school football victory with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied.]]></info-text>
+																	
+																	
+												</infobox>
+														
+												 
+				
+																
+												
+						 
+
+								    	
+
+												<infobox>
+
+																				 
+															
+
+																
+																	<anchor>
+
+																	 
+																				<text><![CDATA[For our wealth<br />management clients]]></text>
+																				
+
+																		  
+																				
+																			
+																			
+																	</anchor>
+																
+																
+																
+
+																
+
+															 
+															  
+																	<info-text><![CDATA[** No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school football victory with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied.]]></info-text>
+																	
+																	
+												</infobox>
+														
+												 
+				
+																
+												
+						 
+
+								    	
+
+												<infobox>
+
+																				 
+															
+
+																
+																	<anchor>
+
+																	 
+																				<text><![CDATA[For our<br />corporate clients]]></text>
+																				
+
+																		  
+																				
+																			
+																			
+																	</anchor>
+																
+																
+																
+
+																
+
+															 
+															  
+																	<info-text><![CDATA[*** No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school football victory with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied.]]></info-text>
+																	
+																	
+												</infobox>
+														
+												 
+				
+																
+												
+						 
+
+								    	
+
+												<infobox>
+
+																				 
+															
+
+																
+																	<anchor>
+
+																	 
+																				<text><![CDATA[For our<br />employees]]></text>
+																				
+
+																		  
+																				
+																			
+																			
+																	</anchor>
+																
+																
+																
+
+																
+
+															 
+															  
+																	<info-text><![CDATA[**** No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school football victory with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied.]]></info-text>
+																	
+																	
+												</infobox>
+														
+												 
+				
+																
+												
+						 
+
+
+						
+
+				
+
+
+				
+
+
+								   
+								
+	</section>
+
+	
+
+		  <section>
+				
+				
+				
+							
+								
+
+								
+												
+									
+								
+								    
+							
+
+				
+
+
+				
+					
+						
+						<tiles>
+						
+
+								    	
+
+												 
+														 
+															<tile-id><![CDATA[80000006]]></tile-id>
+															
+														
+												 
+				
+																
+												
+						 
+
+								    	
+
+												 
+														 
+															<tile-id><![CDATA[80000005]]></tile-id>
+															
+														
+												 
+				
+																
+												
+						 
+
+								    	
+
+												 
+														 
+															<tile-id><![CDATA[10000004]]></tile-id>
+															
+														
+												 
+				
+																
+												
+						 
+						</tiles>
+
+				
+
+
+				
+
+
+				
+					
+						
+						
+
+						
+
+								    
+												
+						 
+
+
+						
+
+				
+
+
+				
+
+
+								   
+								
+	</section>
+
+	
+
+
+
+	</sections>
+
+	</panel>
+
+
+
+
+
+</panels>
+
+</page>
+
+</content-item>

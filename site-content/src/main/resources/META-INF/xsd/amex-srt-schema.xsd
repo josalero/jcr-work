@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<xs:schema elementFormDefault="qualified" targetNamespace="http://www.amex.com/srt/content" xmlns="http://www.amex.com/srt/content" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:import namespace="http://www.amex.com/srt/content" schemaLocation="amex-srt-core-schema.xsd"/>
+	<xs:import namespace="http://www.amex.com/srt/content" schemaLocation="amex-srt-page-schema.xsd"/>
+	
+</xs:schema>

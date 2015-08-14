@@ -1,0 +1,248 @@
+.carousel {
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	text-align: center;
+}
+#commitment2 .carousel {
+	width: 90%;
+}
+#commitment3 .carousel {
+	width: 80%;
+}
+#commitment4 .carousel {
+	width: 70%;
+}
+
+.carousel ul {
+	display: block;
+	padding: 0;
+	list-style: none;
+	margin: 0 auto;
+	font-size: 0;
+}
+.carousel ul li {
+	display: none;
+	vertical-align: top;
+	overflow: hidden;
+	height: 250px;
+	width: 60px;
+	border-radius: 0;
+	margin-top: 30px;
+	position: relative;
+	font-size: 12pt;
+}
+.carousel ul li.at,
+.carousel ul li.next,
+.carousel ul li.prev {
+	/* items only visible if current, prev, or next */
+	display: inline-block;
+	*display: inline; *zoom: 1;
+}
+.carousel ul li.at {
+	margin-top: 0;
+	width: 500px;
+	height: 310px;
+	overflow: visible;
+}
+
+/* hack to make entire textContainer tile look like a link - client request, not enough time to make .textContainer a link tag */
+.carousel ul li.at .textContainer {
+	cursor: pointer !important;
+}
+.carousel ul li.at .textContainer.closed:hover {
+	opacity: .85; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; filter: alpha(opacity=85);
+}
+
+.carousel ul li.at .textContainer,
+.carousel ul li.at .videoContainer {
+	height: 290px;
+	width: 480px;
+	border-radius: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	background: #333;
+}
+.carousel ul li.next .textContainer,
+.carousel ul li.prev .textContainer,
+.carousel ul li.next .videoContainer,
+.carousel ul li.prev .videoContainer {
+	display: block;
+	position: relative;
+	height: 230px;
+	width: 50px;
+	overflow: hidden;
+	border-radius: 0
+}
+.carousel ul li.prev .textContainer,
+.carousel ul li.prev .videoContainer {
+	border-right: 0;
+}
+.carousel ul li.next .textContainer,
+.carousel ul li.next .videoContainer {
+	border-left: 0;
+}
+.carousel ul li.next .videoContainer a.videoPlaceholder .playIcon,
+.carousel ul li.prev .videoContainer a.videoPlaceholder .playIcon {
+	display: none;
+}
+
+.carousel ul li.next .videoContainer a.videoPlaceholder,
+.carousel ul li.prev .videoContainer a.videoPlaceholder {
+	position: absolute;
+	top: 0;
+}
+.carousel ul li.next .videoContainer a.videoPlaceholder {
+	right: 0;
+	left: auto;
+}
+.carousel ul li.prev .videoContainer a.videoPlaceholder {
+	right: auto;
+	left: 0;
+}
+.carousel ul li.next .videoContainer .videoBrandBar,
+.carousel ul li.prev .videoContainer .videoBrandBar {
+	position: absolute;
+	bottom: 0;
+}
+.carousel ul li.next .videoContainer .videoBrandBar {
+	right: 0;
+	left: auto;
+}
+.carousel ul li.prev .videoContainer .videoBrandBar {
+	right: auto;
+	left: 0;
+}
+
+.carousel ul li .textContainer>img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: auto;
+}
+.carousel ul li.next .textContainer>img {
+	right: 0;
+	left: auto;
+}
+.carousel ul li.prev .textContainer>img {
+	right: auto;
+	left: 0;
+}
+
+.carousel ul li.at .textContainer .caption {
+	background: transparent url(/images/black-10x10-50.png);
+	color: #FFF;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: 500;
+}
+.carousel ul li.at .textContainer .textBlock {
+	display: block;
+	color: #FFF;
+	position: absolute;
+	width: 50%;
+	height: 490px;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	overflow: hidden;
+}
+.carousel ul li.at .textContainer .textBlockFull {
+	display: none;
+	color: #FFF;
+	position: absolute;
+	width: 100%;
+	height: 490px;
+	top: 0;
+	left: 0;
+	z-index: 200;
+}
+
+.carousel ul li.at .textContainer .textBlock img.seeitinaction {
+	padding: 2em 0 1em 0;
+	display: block;
+	margin: 0 auto;
+}
+.carousel ul li.at .textContainer .textBlock>strong {
+	
+}
+.carousel ul li.at .textContainer .textBlock .textBody,
+.carousel ul li.at .textContainer.closed .textBlock .textBody {
+	display: none !important;
+}
+.carousel ul li.at .textContainer.open .textBlock .textBody {
+	display: block !important;
+	width: 480px;
+	background: transparent url(/images/seeitinaction-bar-447x1.png) top center no-repeat;
+	padding-top: 1em;
+	margin-top: 1em;
+}
+.carousel ul li.at .textContainer .textBlock p {
+	text-align: left;
+	margin: 0 1em 1em 1em;
+}
+
+.carousel ul li.at .textContainer.closed .caption p {
+	visibility: visible;
+}
+.carousel ul li.at .textContainer.open .caption p {
+	visibility: hidden;
+}
+
+.carousel ul li.prev .textContainer .textBlock,
+.carousel ul li.next .textContainer .textBlock,
+.carousel ul li.prev .textContainer .textBlockFull,
+.carousel ul li.next .textContainer .textBlockFull,
+.carousel ul li.prev .textContainer .caption,
+.carousel ul li.next .textContainer .caption {
+	display: none;
+}
+
+.carousel ul li.at .textContainer .caption p {
+	text-align: left;
+	margin: .5em;
+}
+
+.carousel ul li a.move {
+	position: absolute;
+	display: none;
+	top: 10px;
+	height: 230px;
+	width: 56px;
+}
+.carousel ul li.prev a.move {
+	background: transparent url(/images/carousel_left.png) center center no-repeat;
+	display: block;
+	left: 10px;
+	right: auto;
+}
+.carousel ul li.next a.move {
+	background: transparent url(/images/carousel_right.png) center center no-repeat;
+	display: block;
+	left: auto;
+	right: 10px;
+}
+
+.carousel ul li.at .textContainer .caption .expand {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: block;
+	height: 38px;
+	width: 38px;
+	background: transparent url(/images/arrows_open.png) center center no-repeat;
+}
+.carousel ul li.at .textContainer .caption .pageCounter {
+	position: absolute;
+	bottom: 9px;
+	right: 38px;
+	display: block;
+}
+
+.carousel ul li.at .textContainer.open .caption .expand {
+	background: transparent url(/images/arrows_close.png) center center no-repeat;
+}

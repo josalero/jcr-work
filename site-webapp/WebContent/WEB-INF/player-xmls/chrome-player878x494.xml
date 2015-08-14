@@ -1,0 +1,32 @@
+<Runtime>
+  <Layout id="layout" boxType="vbox" padding="0" backgroundColor="0x01000000">
+    <VideoDisplay id="videoPlayer" showBack="true" includeFullscreenControls="true" x="0" y="0"/>
+    <MediaControls id="mediaControls" height="30" padding="0">
+      <HBox id="defaultView" hAlign="center" height="35" width="100%" gutter="0" padding="0">
+        <HBox maxWidth="695" height="30" gutter="10" vAlign="middle">
+          <ToggleButton id="moreButton" tooltip="More On " toggledTooltip="More Off" showBack="false" tabIndex="1" accessibleName="acc more name" style="" width="43" height="18"/>
+          <Spacer width="2" height="5"/>
+          <ToggleButton tabIndex="2" width="10" id="playButton" iconName="play" toggledIconName="pause" tooltip="controls play tooltip" toggledTooltip="controls pause tooltip" click="{videoPlayer.play()}" toggledClick="{videoPlayer.pause()}" toggled="{videoPlayer.playing}" enabled="{videoPlayer.video}" showBack="false" accessibleName="acc play pause name"/>
+          <Spacer width="3" height="5"/>
+          <Playhead id="playhead" tabIndex="3" height="6" width="170" mediaController="{videoPlayer}" useTimeToolTip="true" enabled="{videoPlayer.video}" accessibleName="acc playhead name"/>
+          <Canvas width="70">
+            <Label tabIndex="4" id="positionLabel" y="-1" text="{format(videoPlayer.mediaPosition, SecondsTimecodeFormatter)}" vAlign="middle" hAlign="left" alpha=".75"/>
+            <Spacer width="5" height="5"/>
+            <Label y="-1" text="/" vAlign="middle" hAlign="center" alpha=".75"/>
+            <Spacer width="5" height="5"/>
+            <Label tabIndex="5" id="durationLabel" y="-1" text="{format(videoPlayer.mediaDuration, SecondsTimecodeFormatter)}" vAlign="middle" hAlign="right" alpha=".75"/>
+          </Canvas>
+          <VolumeControl showBack="false" id="volumeButton" width="20" height="30" mediaController="{videoPlayer}" horizontalPadding="5" useOverlayLayer="false" iconName="volume" mutedIconName="muted" tooltip="mute tooltip" mutedTooltip="unmute tooltip" useZeroWidth="true" popupGutter="3" tabIndex="6" accessibleName="acc volume name"/>
+          <ToggleButton showBack="false" id="fullscreenButton" width="35" height="30" tooltip="controls maximize tooltip" toggledTooltip="controls minimize tooltip" click="{videoPlayer.goFullScreen(true)}" toggledClick="{videoPlayer.goFullScreen(false)}" toggled="{videoPlayer.fullscreen}" tabIndex="7" accessibleName="acc fullscreen name"/>
+          <Spacer width="130" height="5"/>
+          <ToggleButton id="transcriptButton" tabIndex="8" showBack="false" tooltip="View PDF" includeInLayout="{!videoPlayer.fullscreen}" accessibleName="acc transcript name"/>
+          <Spacer width="3" height="5"/>
+          <ToggleButton id="emailButton" tabIndex="091" showBack="false" visible="{adContext.menuOptionsVisible}" tooltip="Email this video" includeInLayout="{!videoPlayer.fullscreen}" accessibleName="acc email name"/>
+          <Spacer width="3" height="5"/>
+          <ToggleButton id="shareButton" tabIndex="9" showBack="false" visible="{adContext.menuOptionsVisible}" tooltip="Share this video" includeInLayout="{!videoPlayer.fullscreen}" accessibleName="acc share name"/>
+          <!--ToggleButton id="likeButton" showBack="false" tabIndex="093" visible="{adContext.menuOptionsVisible}" tooltip="Like this video" includeInLayout="{!videoPlayer.fullscreen}" accessibleName="acc like name"/-->
+        </HBox>
+      </HBox>
+    </MediaControls>
+  </Layout>
+</Runtime>

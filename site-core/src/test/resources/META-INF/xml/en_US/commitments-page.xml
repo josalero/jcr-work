@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[commitment_page]]></id>
+	<cms-id><![CDATA[10004]]></cms-id>
+	<template><![CDATA[commitment_page]]></template>
+	<content-type><![CDATA[page]]></content-type>
+
+	<metadata>
+		<htmltitle><![CDATA[Online Employee Experience | Commitments]]></htmltitle>
+		<metakeywords><![CDATA[Online Employee Experience | Commitments]]></metakeywords>
+		<metadescription><![CDATA[Online Employee Experience Bank of America employee commitments.]]></metadescription>
+	</metadata>
+
+	<page>
+		<page-name><![CDATA[Our Commitments]]></page-name>
+		<panels>
+		
+			<panel>
+						<sections>
+		 					<section>
+								<paragraph>
+										<heading>
+										<![CDATA["Our Commitments represent <i>how</i> we deliver our strategy and operating principles to serve customers, clients, communities and employees."]]>
+										</heading>
+								</paragraph>
+								<tiles>
+									<!-- video -->
+									<tile-id><![CDATA[40005]]></tile-id>
+									<!-- Signature and Text -->
+									<tile-id><![CDATA[40006]]></tile-id>
+			 					</tiles>
+							</section>
+						</sections>
+			</panel>
+			
+			<!-- Part 1  -->
+			<panel>
+				<sections>
+ 					<section>
+						<paragraph>
+							<heading><![CDATA[1. Making interactions easier]]></heading>
+							<content>
+								<![CDATA[Our dedication to putting customers and client's interest first starts with talking to them directly, simply and in a human, straighforward way they'll understand and appreciate. And it's something well never stop trying to improve upon.]]>
+							</content>
+						</paragraph>
+						<tiles>
+							<!-- video tile -->
+							<tile-id><![CDATA[40005]]></tile-id>
+	 					</tiles>
+	 					<infobox>
+							<anchor>
+								<text><![CDATA[BofA]]></text>
+								<image>
+									<path><![CDATA[/sample/img1.png]]></path>
+								</image>
+							</anchor>
+							<info-text>
+								<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+							</info-text>
+						</infobox>
+						
+						<infobox>
+							<anchor>
+								<text><![CDATA[Merrill Lynch]]></text>
+								<image>
+									<path><![CDATA[/sample/img2.png]]></path>
+								</image>
+							</anchor>
+							<info-text>
+								<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+							</info-text>
+						</infobox>
+						
+						<infobox>
+							<anchor>
+								<text><![CDATA[BofA and Merrill Lynch ]]></text>
+								<image>
+									<path><![CDATA[/sample/img3.png]]></path>
+								</image>
+							</anchor>
+							<info-text>
+								<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+							</info-text>
+						</infobox>
+						 
+						 
+						 
+						<infobox>
+							<anchor>
+								<text><![CDATA[US Trust ]]></text>
+								<image>
+									<path><![CDATA[/sample/img4.png]]></path>
+								</image>
+							</anchor>
+							<info-text>
+								<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+							</info-text>
+						</infobox> 
+					</section>
+					<section>
+							<tiles>
+							<tile-id><![CDATA[70001]]></tile-id>
+							<tile-id><![CDATA[70001]]></tile-id>
+							<tile-id><![CDATA[70001]]></tile-id>
+							</tiles>
+					</section>
+				</sections>
+			</panel>
+			
+			<panel>
+							<sections>
+			 					<section>
+									<paragraph>
+										<heading><![CDATA[2. Making expertiese more accessible]]></heading>
+										<content>
+											<![CDATA[Our dedication to putting customers and client's interest first starts with talking to them directly, simply and in a human, straighforward way they'll understand and appreciate. And it's something well never stop trying to improve upon.]]>
+										</content>
+									</paragraph>
+									<tiles>
+										<!-- video tile -->
+										<tile-id><![CDATA[40005]]></tile-id>
+				 					</tiles>
+				 					<infobox>
+										<anchor>
+											<text><![CDATA[BofA]]></text>
+											<image>
+												<path><![CDATA[/sample/img1.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox>
+									
+									<infobox>
+										<anchor>
+											<text><![CDATA[Merrill Lynch]]></text>
+											<image>
+												<path><![CDATA[/sample/img2.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox>
+									
+									<infobox>
+										<anchor>
+											<text><![CDATA[BofA and Merrill Lynch ]]></text>
+											<image>
+												<path><![CDATA[/sample/img3.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox>
+									 
+									 
+									 
+									<infobox>
+										<anchor>
+											<text><![CDATA[US Trust ]]></text>
+											<image>
+												<path><![CDATA[/sample/img4.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox> 
+								</section>
+								<section>
+										<tiles>
+										<tile-id><![CDATA[70001]]></tile-id>
+										<tile-id><![CDATA[70001]]></tile-id>
+										<tile-id><![CDATA[70001]]></tile-id>
+										</tiles>
+								</section>
+							</sections>
+			</panel>
+			
+			
+			<panel>
+							<sections>
+			 					<section>
+									<paragraph>
+										<heading><![CDATA[3. Making relationship more human]]></heading>
+										<content>
+											<![CDATA[Our dedication to putting customers and client's interest first starts with talking to them directly, simply and in a human, straighforward way they'll understand and appreciate. And it's something well never stop trying to improve upon.]]>
+										</content>
+									</paragraph>
+									<tiles>
+										<!-- video tile -->
+										<tile-id><![CDATA[40005]]></tile-id>
+				 					</tiles>
+				 					<infobox>
+										<anchor>
+											<text><![CDATA[BofA]]></text>
+											<image>
+												<path><![CDATA[/sample/img1.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox>
+									
+									<infobox>
+										<anchor>
+											<text><![CDATA[Merrill Lynch]]></text>
+											<image>
+												<path><![CDATA[/sample/img2.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox>
+									
+									<infobox>
+										<anchor>
+											<text><![CDATA[BofA and Merrill Lynch ]]></text>
+											<image>
+												<path><![CDATA[/sample/img3.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox>
+									 
+									 
+									 
+									<infobox>
+										<anchor>
+											<text><![CDATA[US Trust ]]></text>
+											<image>
+												<path><![CDATA[/sample/img4.png]]></path>
+											</image>
+										</anchor>
+										<info-text>
+											<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+										</info-text>
+									</infobox> 
+								</section>
+								<section>
+										<tiles>
+										<tile-id><![CDATA[70001]]></tile-id>
+										<tile-id><![CDATA[70001]]></tile-id>
+										<tile-id><![CDATA[70001]]></tile-id>
+										</tiles>
+								</section>
+							</sections>
+			</panel>
+			
+				<panel>
+										<sections>
+						 					<section>
+												<paragraph>
+													<heading><![CDATA[4. Success That is shared]]></heading>
+													<content>
+														<![CDATA[Our dedication to putting customers and client's interest first starts with talking to them directly, simply and in a human, straighforward way they'll understand and appreciate. And it's something well never stop trying to improve upon.]]>
+													</content>
+												</paragraph>
+												<tiles>
+													<!-- video tile -->
+													<tile-id><![CDATA[40005]]></tile-id>
+							 					</tiles>
+							 					<infobox>
+													<anchor>
+														<text><![CDATA[BofA]]></text>
+														<image>
+															<path><![CDATA[/sample/img1.png]]></path>
+														</image>
+													</anchor>
+													<info-text>
+														<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+													</info-text>
+												</infobox>
+												
+												<infobox>
+													<anchor>
+														<text><![CDATA[Merrill Lynch]]></text>
+														<image>
+															<path><![CDATA[/sample/img2.png]]></path>
+														</image>
+													</anchor>
+													<info-text>
+														<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+													</info-text>
+												</infobox>
+												
+												<infobox>
+													<anchor>
+														<text><![CDATA[BofA and Merrill Lynch ]]></text>
+														<image>
+															<path><![CDATA[/sample/img3.png]]></path>
+														</image>
+													</anchor>
+													<info-text>
+														<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+													</info-text>
+												</infobox>
+												 
+												 
+												 
+												<infobox>
+													<anchor>
+														<text><![CDATA[US Trust ]]></text>
+														<image>
+															<path><![CDATA[/sample/img4.png]]></path>
+														</image>
+													</anchor>
+													<info-text>
+														<![CDATA[No one should be treated like an account number. Whether it's policies that are flexible to individual circumstances. technologies that are so intuitive they feel human, or a teller who celebrates a high school footaball victoy with a customer, we are constantly looking for ways to make sure that everyone feels welcome. We appreciate the chance to serve our customers. We listen, and stick with them until they're satisfied. ]]>
+													</info-text>
+												</infobox> 
+											</section>
+											<section>
+													<tiles>
+													<tile-id><![CDATA[70001]]></tile-id>
+													<tile-id><![CDATA[70001]]></tile-id>
+													<tile-id><![CDATA[70001]]></tile-id>
+													</tiles>
+											</section>
+										</sections>
+			</panel>
+			
+			
+			
+		</panels>
+	</page>
+</content-item>	
+	

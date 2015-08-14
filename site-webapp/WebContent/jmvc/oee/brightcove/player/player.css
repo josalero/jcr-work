@@ -1,0 +1,558 @@
+
+.player {
+    margin: 0 auto;
+}
+
+.ent-brightcove-video-player {
+    background: #000000;
+}
+
+.mastheadContainer .player-masthead-class {
+    /* must be initially hidden */
+    display: none;
+    /* place overlay on top of other elements */
+    z-index: 10000;
+    /* styling */
+    border: 1px solid #666;
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow: 0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+
+.video-end-screen {
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    height: 150px;
+    width: 450px;
+    text-align: center;
+    /* IE 8 */
+    background: #000000;
+    /* Good browsers */
+    opacity: 0.65;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+    /* IE 5-7 */
+    filter: alpha(opacity = 65);
+    /* Netscape */
+    -moz-opacity: 0.65;
+    /* Safari 1.x */
+    -khtml-opacity: 0.65;
+    display: block;
+}
+
+.overlay {
+    display: block;
+    background: #000000;
+}
+
+.overlay .close {
+    display: none;
+}
+
+.player-canvas {
+    display: block;
+    height: 300px;
+}
+
+.size {
+    background: transparent url(../../../../images/video-brandBar.png) top left no-repeat;
+    /* margin-top: -3px; */
+    height: 20px;
+    width: 100%;
+    /* background-color: #E13F29; */
+    display: block;
+    cursor: default;
+    /* position: relative; */
+}
+
+.more .content-left .main-image-content p,
+p.next-video-caption {
+    background-color: #E31932;
+}
+
+.selectedCell .size .logo {
+    background: transparent url(/images/cell/background/logo-sprites-forVideoBar.png) 100% -3px no-repeat;
+    height: 17px;
+    width: 111px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+
+.bankofamerica .size .logo {
+    background-position: 100% -3px;
+}
+.enterprise .size .logo {
+    background-position: 100% -3px;
+}
+.merrilllynch .size .logo {
+    background-position: 100% -53px;
+}
+.ustrust .size .logo {
+    background-position: 100% -79px;
+}
+.bankofamericamerrilllynch .size .logo {
+    background-position: 100% -3px;
+}
+
+.notvisible {
+    visibility: hidden;
+    display: none;
+}
+
+.overlay .notvisible {
+    visibility: hidden;
+    display: block;
+}
+
+.visible {
+    visibility: visible;
+    display: block;
+}
+
+div.size .logo-img {
+    float: right;
+    height: 19px;
+    padding: 2px;
+    width: 99px;
+}
+
+.video-end-screen img {
+    vertical-align: top;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.content-left {
+    display: block;
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 60%;
+}
+
+.content-right {
+    display: block;
+    float: right;
+    height: 100%;
+    margin-right: 28px;
+    position: relative;
+    width: 38%;
+	text-align: left;
+}
+
+.featured-comment-content {
+    width: 100%;
+    display: block;
+    margin-top: 55px;
+}
+
+.learn-more-content {
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.content-right .featured-comment-content span {
+    color: #FFFFFF;
+    display: block;
+    font-family: FranklinGothicDemiCompressed;
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+
+.content-right .learn-more-content span {
+    color: #FFFFFF;
+    display: block;
+    font-family: FranklinGothicDemiCompressed;
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+
+.more .content-right .featured-comment-content p {
+    color: #FFFFFF;
+    display: block;
+    font-family: 'FranklinGothicMediumCondensed';
+    font-size: 116%;
+    padding-left: 1px;
+    margin-bottom: 0;
+    width: 95%;
+    white-space: normal;
+}
+
+.more .content-right .featured-comment-content p.author {
+    color: #cbdbdd;
+    display: block;
+    font-family: 'FranklinGothicMediumCondensed';
+    font-size: 108%;
+}
+
+.more .content-right .learn-more-content ul {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.more .content-right .learn-more-content ul li {
+    background: url("/assets/images/common/big_arrow.png") no-repeat scroll 3px 3px transparent;
+    border-bottom: 1px solid #919599;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 0;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    width: 85%;
+    white-space: normal;
+}
+
+.more .content-right .learn-more-content ul li a, .more .content-right .learn-more-content ul li a:hover {
+    display: block;
+    font-family: FranklinGothicMediumCondensed;
+    font-size: 116%;
+    color: #FFFFFF;
+    margin-left: 0;
+    padding-left: 3px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.more {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #495056;
+    cursor: default;
+    opacity: 0.90;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity = 90);
+    -moz-opacity: 0.90;
+    -khtml-opacity: 0.90;
+}
+
+.more .next-steps {
+    position: absolute;
+    margin-left: 35px;
+    width: auto;
+    margin-top: 20px;
+    top: 350px;
+}
+
+.more .next-steps .next-video {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 99px;
+    margin-right: 11px;
+    position: relative;
+    width: 139px;
+}
+
+.more .content-left .main-image-content {
+    position: absolute;
+    margin: 60px 0 0 35px;
+}
+
+.more .content-left .main-image-content a {
+    text-decoration: none;
+}
+
+.more .content-left .main-image-content img {
+    cursor: pointer;
+    height: 248px;
+    position: absolute;
+    top: 0;
+    width: 440px;
+}
+
+.more .content-left .main-image-content img.boa-logo {
+    height: 22px;
+    right: 0;
+    top: 4px;
+    width: 99px;
+}
+
+.more .content-left .main-image-content img.play-button {
+    display: block;
+    height: 69px;
+    left: 170px;
+    position: absolute;
+    top: 80px;
+    width: 69px;
+}
+
+span.separator {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 3px;
+}
+
+.more .next-steps .next-video p {
+    background: none repeat scroll 0 0 #DC290F;
+    margin: 0;
+    padding: 0 0 0 6px;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    color: #FFFFFF;
+    width: 121px;
+    font-family: 'FranklinGothicMediumCondensed';
+    font-size: 100%;
+}
+
+.more .content-left .main-image-content p {
+    background: none repeat scroll 0 0 #DC290F;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: 'FranklinGothicMediumCondensed';
+    font-size: 116%;
+    height: 20px;
+    left: 0;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    text-align: left;
+    width: 431px;
+    top: 218px;
+}
+
+.more .content-left .next-up {
+    color: #FFFFFF;
+    display: block;
+    font-family: FranklinGothicDemiCompressed;
+    font-size: 191%;
+    margin: 30px 0 0 35px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 300px;
+}
+
+.more .next-steps .next-video img {
+    height: 87px;
+    width: 127px;
+    margin: 6px;
+}
+
+.more .next-steps .next-video img.play-button {
+    height: 38px;
+    left: 40px;
+    position: absolute;
+    top: 20px;
+    width: 39px;
+}
+
+.transcript-container {
+    width: 100%;
+    display: block;
+    height: 230px;
+    background: #FFFFFF;
+    
+}
+
+.transcript-container .transcript {
+    display: block;
+    float: left;
+    height: 200px;
+    width: 100%;
+    background:#fff;
+    overflow: auto;
+}
+
+.transcript-container .transcript .scroller {
+    padding: 10px;
+}
+
+.selectedCell .transcript-container .transcript {
+    border: 1px solid #CCC;
+    width: 875px;
+    height: 200px;
+}
+
+.transcript-container div.scrollBar {
+    display: none; /* hide unless initialized, and jqueryui adds .ui-slider class */
+}
+
+.transcript-container .transcript-button-container {
+    background: #EEE;
+    padding: 7px 10px;
+    text-align: right;
+}
+.transcript-container .transcript-button-container a.button {
+    display: inline-block;
+    *display: inline; *zoom: 1;
+    font-family: 'FranklinGothicMedium', Arial, Helvetica, sans-serif !important;
+    font-size: 8pt;
+    line-height: 100% !important;
+    color: #666 !important;
+    padding: 3px 7px;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.more img.boa-logo {
+    display: block;
+    height: 31px;
+    position: absolute;
+    right: 15px;
+    top: 470px;
+    width: 111px;
+}
+
+.video-end-screen a {
+    text-decoration: none;
+    margin-left: 170px; /*magic number*/
+    width: 110px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin-top: 60px;
+}
+
+.video-end-screen a.replay {
+    background: url(/images/common/vid_replay.png);
+}
+
+.video-end-screen a.replay:hover {
+    background: url(/images/common/vid_replay_over.png);
+}
+
+.video-end-screen a.embed {
+    background: url(/images/common/vid_embed.png);
+}
+
+.video-end-screen a.embed:hover {
+    background: url(/images/common/vid_embed_over.png);
+}
+
+.video-end-screen a.link-to {
+    background: url(/images/common/vid_linkto.png);
+}
+
+.video-end-screen a.link-to:hover {
+    background: url(/images/common/vid_linkto_over.png);
+}
+
+.jaws-player {
+    /* position: relative; */
+}
+.jaws-player a {
+    display: inline-block;
+}
+
+/***************************HTML 5 **************************************/
+.html5-player-canvas {
+    height: 30px;
+    background: black;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 240px;
+    left: 0;
+	display:none;
+}
+
+.html5-player-buttons {
+    height: 30px;
+    display: block;
+    background: url(/images/brightcove/highsize/control-background.png);
+}
+
+.html5-player-canvas input {
+    cursor: pointer;
+    border:none;
+}
+
+.html5-player-canvas .more-button {
+    background: url(/images/brightcove/player/more.png);
+    height: 18px;
+    width: 43px;
+    display: block;
+    margin-left: 85px;
+    float: left;
+    margin-top: 6px;
+}
+
+.html5-player-canvas .more-button:hover {
+    /*border: 1px solid #000000;*/
+}
+
+.html5-player-canvas .transcript-button {
+    background: url(/images/brightcove/player/transcript.png);
+    height: 18px;
+    width: 81px;
+    display: block;
+    float: left;
+    margin-top: 6px;
+    margin-left: 320px;/*533px;*/
+}
+
+.html5-player-canvas .share-button {
+    background: url(/images/brightcove/player/share.png);
+    height: 18px;
+    width: 57px;
+    display: block;
+    margin-left: 25px;
+    float: left;
+    margin-top: 6px;
+}
+
+.html5-player-canvas .send-button {
+    background: url(/images/brightcove/player/mail.png);
+    height: 18px;
+    width: 23px;
+    display: block;
+    margin-left: 15px;
+    float: left;
+    margin-top: 6px;
+}
+
+.html5-player-canvas .like-button {
+    background: url(/images/brightcove/player/like.png);
+    height: 18px;
+    width: 43px;
+    display: block;
+    margin-left: 15px;
+    float: left;
+    margin-top: 6px;
+}
+
+.player .more-container {
+    height: auto;
+    position: relative;
+    width: auto;
+    display: block;
+}
+
+.player .container {
+	clear: both;
+    padding: 10px 20px;
+}
+
+.player .container textarea {
+    width: 100%;
+	display:none;
+}
+
+.embed-text{
+	display:none;
+}
+
+.ent-brightcove-video-player .logo,
+.video-tile .logo,
+.video-module .logo {
+    background: url("/images/player/logo-sprites-forVideoBar.png") no-repeat scroll 100% 0 transparent;
+    bottom: 5px;
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 3px;
+    width: 41px;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US"
+	xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[image-tile-1]]></id>
+	<cms-id>40003</cms-id>
+
+	<template>image-tile</template>
+
+	<content-type>image-tile</content-type>
+
+	<metadata>
+		<authored-date><![CDATA[2012-01-05T16:00:00Z]]></authored-date>
+		<!-- Set on OpenDeploy ... -->
+		<published-date><![CDATA[2012-12-12T16:00:00Z]]></published-date>
+		<expiration-date><![CDATA[2012-12-12T16:00:00Z]]></expiration-date>
+	</metadata>
+
+	<!-- This is an extendable element from tileContentBase -->
+	<image-tile>
+			<image>
+				<path><![CDATA[/assets/images/tiles/imag1.jpg]]></path>
+				<alt-text><![CDATA[Image Tile]]></alt-text>
+				<image-type><![CDATA[image-type-111x167]]></image-type>
+			</image>
+	</image-tile>
+
+</content-item>

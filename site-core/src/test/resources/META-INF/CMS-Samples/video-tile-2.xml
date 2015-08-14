@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><content-item locale="en-US" xmlns="http://www.bac.com/oee/content">
+<id><![CDATA[video-tile-2]]></id>
+<cms-id>1600000004</cms-id>
+<template><![CDATA[video-tile]]></template>
+<content-type><![CDATA[video-tile]]></content-type>
+
+
+
+	<metadata>
+		<authored-date><![CDATA[2013-01-25T14:42:37Z]]></authored-date>		
+		<published-date><![CDATA[2013-01-26T14:42:40Z]]></published-date>		
+		<expiration-date><![CDATA[2013-01-27T14:42:44Z]]></expiration-date>
+	</metadata>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+		
+	<video-tile>
+		<brightcove-id><![CDATA[BR0002]]></brightcove-id>
+		
+		<video-size><![CDATA[video-size-478x268]]></video-size>
+		<images>
+			<image>
+				<path><![CDATA[/images/video.png]]></path>
+				<alt-text><![CDATA[/images/video.png]]></alt-text>
+			</image>
+		</images>
+	</video-tile>
+
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</content-item>

@@ -1,0 +1,67 @@
+<div class="player screen-reader-hidden">
+	<div class="overlay">
+		<div id="player-<%=this.videoId%>" class="player-canvas video-player-class share-image-module" >
+		</div>
+		<div class="html5-player-canvas">
+			<div class="html5-player-buttons">
+				<input type="button" class="transcript-button" title="Transcript"/>
+				<input type="button" class="send-button" title="Send email"/>
+			</div>
+		</div>
+		<div class="size">
+			<a href="#" class="share accessibility-hidden">Share this Video</a>
+			<div class="logo"></div>
+		</div>
+		<div class="transcript-container">
+			<div class="transcript-button-container">
+				<a class="closeTranscript button" href="#">Close <span class="accessibility-hidden">Transcript Window</span></a>
+			</div>
+			<div class="transcript">
+				<div class="scroller"></div>
+			</div>
+		</div>		
+	</div>	
+	<div class="media-controls video-end-screen notvisible">
+		<a href="#Replay" class="replay"><span class="accessibility-hidden">Replay the video</span></a>
+	</div>
+	<div class="media-controls more notvisible">
+		<div class="more-container">
+			<div class="content-left">
+				<div class="main-image-content">
+					<a href="#" class="main-image-content-anchor" title="<%= this.imageAlt%>">
+						<img src="<%= this.imagePath%>" class="main" alt="<%= this.imageAlt%>"/>
+						<p><%= this.headline%> <img src="/images/common/video_logo_boa.png" class="boa-logo"/></p>
+						<img src="/assets/images/common/MediumVideoIcon.png" class="play-button"/>
+					</a>	
+				</div>
+				<span class="next-up">NEXT UP</span>
+				<div class="next-steps">
+					<!--div class="next-video">
+						<a href="/tests/related-video.html?videoId=23" rel="id"  style="text-decoration:none">
+							<img src="<%= this.nextvideo1%>"  rel="next-video-1"/>
+						</a>	
+						<p>Headline</p>
+					</div>
+					<span class="separator">&nbsp;</span-->
+				</div>
+			</div>
+			<div class="content-right">
+				<div class="featured-comment-content">
+					<!--span>Featured Comment</span-->
+					<p><%= this.comment%></p>
+					<!--p class="author"><%= this.author%></p-->
+				</div>
+				<div class="learn-more-content">
+					<span>Learn More</span>
+					<!--ul>
+						<li><a href="/#">dummy</a></li>
+						<li><a href="/#">dummy</a></li>
+						<li><a href="/#">dummy</a></li>
+						<li><a href="/#">dummy</a></li>
+					</ul-->
+				</div>
+			</div>
+			<img src="/assets/images/common/videoend_logo_boa.png" class="boa-logo"/>
+		</div>	
+	</div>
+</div>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[document-tile-1]]></id>
+	<cms-id>40001</cms-id>
+
+	<template>document-tile</template>
+
+	<content-type>document-tile</content-type>
+
+	<metadata>
+		<authored-date>2012-01-05T16:00:00Z</authored-date>
+		<published-date>2012-01-05T16:00:00Z</published-date>
+		<expiration-date>2012-01-05T16:00:00Z</expiration-date>
+	</metadata>
+
+	<document-tile>
+		 <primary-headline><![CDATA[Tile Primary Headline goes here ...]]></primary-headline>
+		<short-headline><![CDATA[Tile Short Headline goes here ...]]></short-headline>
+				 <document>
+					<doc-id>DOC38973</doc-id>
+					<doc-name></doc-name>
+					<doc-path></doc-path>
+					<doc-type></doc-type>
+					<doc-size></doc-size>
+					<doc-description></doc-description>
+				 </document>
+			 
+ 	</document-tile>
+
+</content-item>

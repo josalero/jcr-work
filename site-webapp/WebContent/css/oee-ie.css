@@ -1,0 +1,80 @@
+.lt-ie9 #container #tagline #tagline-flag-part1.backgroundOverlay {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-1.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-1.png',
+			sizingMethod='scale')";
+}
+.lt-ie9 #container #tagline #tagline-flag-part2.backgroundOverlay {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-2.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-2.png',
+			sizingMethod='scale')";
+}
+.lt-ie9 #container #tagline #tagline-flag-part3.backgroundOverlay {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-3.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-3.png',
+			sizingMethod='scale')";
+}
+.lt-ie9 #container #tagline #tagline-flag-part4.backgroundOverlay {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-4.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/overlays_flag-4.png',
+			sizingMethod='scale')";
+}
+
+.lt-ie9 #container #were-better-when-were-connected {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_words.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_words.png',
+			sizingMethod='scale')";
+}
+.lt-ie9 #container #our-commitments .backgroundOverlay {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_flag.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_flag.png',
+			sizingMethod='scale')";
+}
+.lt-ie9 #container #why-do-we-do-what-we-do .backgroundOverlay {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_words.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_words.png',
+			sizingMethod='scale')";
+}
+.lt-ie9 #container #gallery .backgroundOverlay {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_flag.png',
+			sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='/images/neg_overlays_flag.png',
+			sizingMethod='scale')";
+}

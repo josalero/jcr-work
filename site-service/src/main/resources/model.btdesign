@@ -1,0 +1,11 @@
+Application AmexSrtSite {
+    basePackage=com.amex.srt
+
+	Module card {   
+    	Service ContentService {
+    		com.amex.srt.content.ContentItem getPageByURL( String URL) throws ContentServiceException;
+    	}
+    		 	
+    }
+        
+ }

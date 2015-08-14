@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<xs:schema elementFormDefault="qualified" targetNamespace="http://www.amex.com/srt/content" xmlns="http://www.amex.com/srt/content" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:include schemaLocation="amex-srt-common-schema.xsd" />
+	<xs:include schemaLocation="amex-srt-schema.xsd" />
+
+	<xs:complexType name="page">
+		<xs:complexContent>
+			<xs:extension base="contentBase">
+				<xs:sequence>				
+					<xs:element name="page-name" minOccurs="0" maxOccurs="1" type="xs:string" />
+					<xs:element name="page-description" minOccurs="0" maxOccurs="1" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>					
+	
+	<xs:element name="page" type="page" substitutionGroup="content"/>
+	
+	<xs:complexType name="creditPage">
+		<xs:complexContent>
+			<xs:extension base="page">
+				<xs:sequence>
+					<xs:element name="table" minOccurs="0" maxOccurs="1" type="table" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	 
+	<xs:element name="credit-page" type="creditPage" substitutionGroup="content"/>
+	
+	<xs:complexType name="table">
+		<xs:sequence>
+			<xs:element name="row" type="tablerow" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="tablerow">
+		<xs:sequence>
+				<xs:element name="name" minOccurs="1" maxOccurs="1" type="xs:string" />
+				<xs:element name="description" minOccurs="1" maxOccurs="1" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>

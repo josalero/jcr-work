@@ -1,0 +1,81 @@
+.video {
+  background: #FFFFFF;
+}
+.chrome {
+  gradientTop: #DF3C25;
+  gradientMiddle: #DF3C25;
+  gradientBottom: #DF3C25;
+  border: #000000;
+  background: #000000;
+}
+.buttons {
+  text: #FFFFFF;
+  rolloverText: #DF3C25;
+  disabledText: #AAAAAA;
+  icons: #FFFFFF;
+  rolloverIcons: #FFFFFF;
+  disabledIcons: #AAAAAA;
+  borderGradientTop: #DBDBDB;
+  borderGradientBottom: #B3B3B3;
+}
+.titleText {
+  active: #FFFFFF;
+  disabled: #A1A1A1;
+  rollover: #6BAAB1;
+  selected: #6BAAB1;
+}
+.bodyText {
+  active: #FFFFFF;
+  disabled: #B0B0B0;
+  rollover: #7D7D7D;
+  selected: #7D7D7D;
+}
+.linkText {
+  active: #7D7D7D;
+  disabled: #B0B0B0;
+  rollover: #6BAAB1;
+  downState: #6BAAB1;
+}
+.playhead {
+  icon: #FFFFFF;
+  gradientTop: #DF3C25;
+  gradientBottom: #DF3C25;
+}
+.playheadWell {
+  unloadedGradientTop: #A8A8A8;
+  unloadedGradientBottom: #C3C3C3;
+  watchedGradientTop: #B2C846;
+  watchedGradientBottom: #8EA038;
+  bufferedGradientTop: #7E7E7E;
+  bufferedGradientBottom: #929292;
+}
+.volumeControl {
+  icons: #FFFFFF;
+  sliderIcon: #DF3C25;
+  sliderBorder: #000000;
+  sliderGradientLeft: #DF3C25;
+  sliderGradientRight: #DF3C25;
+  trackBorder: #000000;
+  trackGradientLeft: #CFCFCF;
+  trackGradientRight: #F3F3F3;
+  filledTrackGradientLeft: #DF3C25;
+  filledTrackGradientRight: #DF3C25;
+  borderGradientTop: #777777;
+  borderGradientBottom: #363636;
+  backgroundGradientTop: #838383;
+  backgroundGradientBottom: #363636;
+}
+.liveButton {
+  gradientTop: #C3C3C3;
+  gradientBottom: #A9A9A9;
+  rolloverGradientTop: #C3C3C3;
+  rolloverGradientBottom: #A9A9A9;
+  selectedGradientTop: #C3C3C3;
+  selectedGradientBottom: #A9A9A9;
+  disabledGradientTop: #B2C846;
+  disabledGradientBottom: #8C9E37;
+  active: #FFFFFF;
+  disabledText: #FFFFFF;
+  disabledBorder: #97AA3B;
+  border: #9B9B9B;
+}

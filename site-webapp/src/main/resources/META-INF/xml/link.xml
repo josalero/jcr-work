@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<link locale="en_US" xmlns="http://www.bac.com/flag/enterprise/content">
+	<id><![CDATA[link_1]]></id>
+	<link-text><![CDATA[ Testing Marshaller ]]></link-text>
+	<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+	<link-target><![CDATA[_top ]]></link-target>
+</link>

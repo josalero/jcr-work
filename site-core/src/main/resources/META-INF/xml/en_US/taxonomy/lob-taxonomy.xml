@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taxonomy xmlns="http://www.bac.com/oee/content">
+	<id>lob-taxonomy</id>
+	<name>Enterprise LOB Taxonomy</name>
+	<description><![CDATA[This taxonomy describes Lob's ....]]></description>
+	<lob-taxonomy>
+		<taxomomy-item>
+			<id>mortgage</id>
+			<name>Mortgage</name>
+		</taxomomy-item>
+		<taxomomy-item>
+			<id>insurance</id>
+			<name>Insurance</name>
+		</taxomomy-item>
+		<taxomomy-item>
+			<id>banking</id>
+			<name>Banking</name>
+		</taxomomy-item>
+		<taxomomy-item>
+			<id>credit-card</id>
+			<name>Credit Card</name>
+		</taxomomy-item>
+		<taxomomy-item>
+			<id>loans</id>
+			<name>Loans</name>
+		</taxomomy-item>
+	</lob-taxonomy>
+</taxonomy>

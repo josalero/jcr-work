@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard-layout locale="en_US" xmlns="http://www.bac.com/flag/oee/content">
+	<id><![CDATA[who-we-are]]></id>
+	<metadata>
+		<metakeywords><![CDATA[Bank of America Corporation, BofA Corporation, Who is Bank of America]]></metakeywords>
+		<metadescription><![CDATA[Learn more about Bank of America Corporation as a financial institution]]></metadescription>
+		<htmltitle> <![CDATA[  Bank of America Corporation | BofA Corporation | Who We Are ]]>
+		</htmltitle>
+	</metadata>
+	<content>
+		<masthead-image>
+			<path><![CDATA[/images/test/who-we-are-big.png]]></path>
+			<alt-text><![CDATA[who we are ]]></alt-text>
+		</masthead-image>
+		<introduction-content><![CDATA[<p>We&rsquo;re a global company with a strong commitment to the communities and regions in which we live and work.Through our lending, investing, advising, transacting and employment,we provide valuable resources to our customers and <br />&nbsp;clients around the world</p>]]></introduction-content>
+		<body-content-container>
+			<body-content>
+				<text-with-image>
+					<heading><![CDATA[Our Company]]></heading>
+					<image>
+						<path><![CDATA[/assets/images/screengrab_BrandEssenceVideo_located1min16sec.jpg]]></path>
+						<alt-text><![CDATA[Our Company]]></alt-text>
+					</image>
+					<description><![CDATA[<p>Our vision is to become the worlds finest financial services company.How will we know when we&rsquo;ve reached that designation?&nbsp; When our customers and clients tell us we&nbsp; have</p>]]></description>
+					<link>
+						<link-text><![CDATA[More]]></link-text>
+						<link-url><![CDATA[www.bankofamerica.com/enterprise/ourcompany]]></link-url>
+						<link-target><![CDATA[_new]]></link-target>
+					</link>
+				</text-with-image>
+			</body-content>
+			<body-content>
+				<text-with-image>
+					<heading><![CDATA[What We Stand For]]></heading>
+					<image>
+						<path><![CDATA[/assets/images/screengrab_2010 Brand Essence Video_Located_13sec.jpg]]></path>
+						<alt-text><![CDATA[What We Stand For]]></alt-text>
+					</image>
+					<description><![CDATA[<p>Everyone who works here shares a commitment to helping the customers, clients, communities and shareholders we serve.Our core values and operating principles drive our business decisions, guide our activities and focus our resources.We are aware that our decisions and actions affect people&rsquo;s lives every day. We hold ourselves accountable for the disciplined management of risk and for doing the right thing</p>]]></description>
+					<link>
+						<link-text><![CDATA[More]]></link-text>
+						<link-url><![CDATA[www.bankofamerica.com/enterprise/whatwestandfor]]></link-url>
+						<link-target><![CDATA[_blank]]></link-target>
+					</link>
+				</text-with-image>
+			</body-content>
+			<body-content>
+				<text-with-image>
+					<heading><![CDATA[Our Team]]></heading>
+					<image>
+						<path><![CDATA[/assets/images/la_img04_vol.jpg]]></path>
+						<alt-text><![CDATA[Our Team]]></alt-text>
+					</image>
+					<description><![CDATA[<p>Our team is committed to helping make opportunity possible for our customers and clients throughout their financial lives.Click to meet the team members Each brings the expertise, judgement, leadership, and diversity of thought and experience required to make responsible decisions for all of our stakeholders</p>]]></description>
+					<link>
+						<link-text><![CDATA[]]></link-text>
+						<link-url><![CDATA[/our-story/our-team.xml]]></link-url>
+						<link-target><![CDATA[]]></link-target>
+					</link>
+				</text-with-image>
+			</body-content>
+			<body-content>
+				<text-with-image>
+					<heading><![CDATA[Our History & Heritage]]></heading>
+					<image>
+						<path><![CDATA[/assets/images/BofA-DC-04525p.jpg]]></path>
+						<alt-text><![CDATA[Our History & Heritage]]></alt-text>
+					</image>
+					<description><![CDATA[<p>For more than two hundred years, the financial institutions that are part of Bank of America&rsquo;s legacy have been instrumental in helping communities, economies and nations develop and prosper</p>]]></description>
+					<link>
+						<link-text><![CDATA[Our History & Heritage]]></link-text>
+						<link-url><![CDATA[www.bankofamerica.com/enterprise/historyandheritage]]></link-url>
+						<link-target><![CDATA[_blank]]></link-target>
+					</link>
+				</text-with-image>
+			</body-content>
+		</body-content-container>
+		<tile-id><![CDATA[]]></tile-id>
+		<useful-links>
+			<useful-link-id><![CDATA[learn-more]]></useful-link-id>
+			<useful-link-id><![CDATA[news-and-views]]></useful-link-id>
+			<useful-link-id><![CDATA[careers]]></useful-link-id>
+		</useful-links>
+	</content>
+</standard-layout>

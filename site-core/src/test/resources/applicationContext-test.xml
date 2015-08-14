@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="open.deploy.receiver.directory.path" class="java.lang.String">
+		<constructor-arg index="0" value="C:\newproject\cmscontent" />
+	</bean>
+
+	<bean id="amex.jackrabbit.repository.path" class="java.lang.String">
+		<constructor-arg index="0" value="file:target/oee-jackrabbit-repository" />
+	</bean>
+		
+	<bean id="contentManager" class="com.amex.srt.content.ContentManager" init-method="init">
+		<property name="contentRepoAccessDao" ref="contentRepoAccessDao" />
+		<property name="contentItemUnmarshaller" ref="contentItemUnmarshaller"/>
+	</bean>	
+	
+         
+	<import resource="classpath:applicationContext-repo-test.xml"/>
+	<import resource="classpath:applicationContext-core.xml"/>
+
+</beans>

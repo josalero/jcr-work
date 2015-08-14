@@ -1,0 +1,18 @@
+<nt = 'http://www.jcp.org/jcr/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+
+<amex = 'http://www.amex.com/ns/repo'>
+
+[amex:ContentItem] > nt:file
+  - amex:CMS_ID (string)
+  - amex:Type (string)
+  - amex:Locale (string)
+  - amex:PublishedDate (date)
+  
+
+[amex:Page] > amex:ContentItem
+  - amex:URL (string)
+
+[amex:Question] > amex:ContentItem
+  - amex:Score (string)
+  - amex:Keywords (string[]) 

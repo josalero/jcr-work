@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+<id><![CDATA[commitment_video_page]]></id>
+<cms-id>20000010</cms-id>
+<template><![CDATA[commitment_video_page]]></template>
+<content-type>page</content-type>
+
+
+							
+								
+
+
+
+
+
+
+
+<page>
+
+	
+
+									
+										<page-name><![CDATA[Our Commitments Video]]></page-name>
+
+			
+
+<panels>
+
+ 
+
+	 <panel>
+
+	 <panel-name><![CDATA[]]></panel-name>
+
+	<sections>
+
+      
+	
+
+		  <section>
+				
+				
+				
+							
+								
+
+									
+
+									
+										<paragraph>
+
+											
+									 
+												<heading><![CDATA["Our Commitments represent <i>how</i> we deliver our strategy and operating principles to serve customers, clients, communities and employees."]]></heading>
+												
+
+
+									 
+												
+
+												
+																															
+										</paragraph>
+								
+									
+									
+								
+								    
+							
+
+				
+
+
+				
+					
+						
+						<tiles>
+						
+
+								    	
+
+												 
+														 
+															<tile-id><![CDATA[10000002]]></tile-id>
+															
+														
+												 
+				
+																
+												
+						 
+
+								    	
+
+												 
+														 
+															<tile-id><![CDATA[80000006]]></tile-id>
+															
+														
+												 
+				
+																
+												
+						 
+						</tiles>
+
+				
+
+
+				
+
+
+				
+					
+						
+						
+
+						
+
+								    
+												
+						 
+
+
+						
+
+				
+
+
+				
+
+
+								   
+								
+	</section>
+
+	
+
+
+
+	</sections>
+
+	</panel>
+
+
+
+
+
+</panels>
+
+</page>
+
+</content-item>

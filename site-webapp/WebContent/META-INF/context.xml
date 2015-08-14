@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+	<ResourceLink name="amex.jackrabbit.repository.path" global="amex.jackrabbit.repository.path" type="java.lang.String" />
+	<ResourceLink name="open.deploy.receiver.directory.path" global="open.deploy.receiver.directory.path" type="java.lang.String" />
+		
+</Context>

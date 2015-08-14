@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<interstitial-whitelist xmlns="http://www.bac.com/oee/content">
+
+	<domain>
+		<name>investor.bankofamerica.com</name>
+	</domain>
+
+	<domain>
+		<name>newroom.bankofamerica.com</name>
+	</domain>
+
+	<domain>
+		<name>bankofamerica.com</name>
+	</domain>
+
+	<domain>
+		<name>cybergrants.com</name>
+	</domain>
+
+	<domain>
+		<name>bankofamericasponsorships.com</name>
+	</domain>
+
+</interstitial-whitelist>

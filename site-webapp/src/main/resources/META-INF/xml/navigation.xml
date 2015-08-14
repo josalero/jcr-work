@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<navigation locale="en_US" xmlns="http://www.bac.com/flag/enterprise/content">
+	<id><![CDATA[navigation_1]]></id>
+	<logo>
+		<path><![CDATA[images/logo1.jpg]]></path>
+		<alt-text><![CDATA[Bank of America - Enterprise]]></alt-text>
+	</logo>
+	
+	<utility-nav>
+		<nav-items>
+			<nav-item>
+				<id><![CDATA[utility_1]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[utility_2]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[utility_3]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[utility_4]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[utility_5]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+		</nav-items>
+	</utility-nav>
+	
+	<primary-nav>
+		<nav-items>
+			<nav-item>			
+				<id><![CDATA[1]]></id>
+				<name><![CDATA[ Our Story]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+				<tile-id><![CDATA[Tile]]></tile-id>
+				<nav-item>
+					<id><![CDATA[11]]></id>
+					<name><![CDATA[ Who We Are]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>			
+					<nav-item>
+						<id><![CDATA[111]]></id>
+						<name><![CDATA[ Our Company]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[112]]></id>
+						<name><![CDATA[ What We Stand For]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>					
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[113]]></id>
+						<name><![CDATA[ Our History & Heritage]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[12]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[121]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[122]]></id>
+						<name><![CDATA[ Borrowing]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[123]]></id>
+						<name><![CDATA[ Investing]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[124]]></id>
+						<name><![CDATA[ Protecting]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[125]]></id>
+						<name><![CDATA[ Planning]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[13]]></id>
+					<name><![CDATA[ Who We Serve]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[131]]></id>
+						<name><![CDATA[ Individuals & Households]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[132]]></id>
+						<name><![CDATA[ Businesses]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[133]]></id>
+						<name><![CDATA[ Institutional Investors]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[14]]></id>
+					<name><![CDATA[ How We Work]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[141]]></id>
+						<name><![CDATA[ Corporate Governance & Risk]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[142]]></id>
+						<name><![CDATA[ Compliance]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[143]]></id>
+						<name><![CDATA[ Advocacy & Political Involvement]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[144]]></id>
+						<name><![CDATA[ Procurement]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[15]]></id>
+					<name><![CDATA[ Where We Are]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>	
+					<nav-item>
+						<id><![CDATA[151]]></id>
+						<name><![CDATA[ United States & Canada]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[152]]></id>
+						<name><![CDATA[ Asia Pacific]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[153]]></id>
+						<name><![CDATA[ Europe, Middle East & Africa]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+					<nav-item>
+						<id><![CDATA[154]]></id>
+						<name><![CDATA[ Latin America]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[2]]></id>
+				<name><![CDATA[ Global Impact]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+				<tile-id><![CDATA[Tile]]></tile-id>	
+				<nav-item>
+					<id><![CDATA[21]]></id>
+					<name><![CDATA[ Pelle Estesque]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[211]]></id>
+						<name><![CDATA[ Pelle Estesque]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[22]]></id>
+					<name><![CDATA[ Pelle Estesque]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[221]]></id>
+						<name><![CDATA[ Pelle Estesque]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[23]]></id>
+					<name><![CDATA[ Pelle Estesque]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[231]]></id>
+						<name><![CDATA[ Pelle Estesque]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[24]]></id>
+					<name><![CDATA[ Pelle Estesque]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[241]]></id>
+						<name><![CDATA[ Pelle Estesque]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[25]]></id>
+					<name><![CDATA[ Pelle Estesque]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[251]]></id>
+						<name><![CDATA[ Pelle Estesque]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[26]]></id>
+					<name><![CDATA[ Pelle Estesque]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[2611]]></id>
+						<name><![CDATA[ Pelle Estesque]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[3]]></id>
+				<name><![CDATA[ Partnering Locally]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+				<tile-id><![CDATA[Tile]]></tile-id>	
+				<nav-item>
+					<id><![CDATA[31]]></id>
+					<name><![CDATA[ Who We Are]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[311]]></id>
+						<name><![CDATA[ Our Company]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[32]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[321]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[33]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[331]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[34]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[341]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>		
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[35]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[351]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+			</nav-item>
+			<nav-item>	
+				<id><![CDATA[4]]></id>
+				<name><![CDATA[ Join The Discussion]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>	
+				<nav-item>
+					<id><![CDATA[41]]></id>
+					<name><![CDATA[ Who We Are]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[411]]></id>
+						<name><![CDATA[ Our Company]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[42]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[421]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+			</nav-item>
+			<nav-item>		
+				<id><![CDATA[5]]></id>
+				<name><![CDATA[ Newsroom]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>	
+				<nav-item>
+					<id><![CDATA[51]]></id>
+					<name><![CDATA[ Who We Are]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[511]]></id>
+						<name><![CDATA[ Our Company]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>					
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[52]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[521]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+			</nav-item>
+			<nav-item>		
+				<id><![CDATA[6]]></id>
+				<name><![CDATA[ Investor Relations]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>	
+				<nav-item>
+					<id><![CDATA[61]]></id>
+					<name><![CDATA[ Who We Are]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[611]]></id>
+						<name><![CDATA[ Our Company]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[62]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>						
+					<nav-item>
+						<id><![CDATA[621]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+			</nav-item>
+			<nav-item>		
+				<id><![CDATA[7]]></id>
+				<name><![CDATA[ Careers]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>	
+				<nav-item>
+					<id><![CDATA[71]]></id>
+					<name><![CDATA[ Who We Are]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[711]]></id>
+						<name><![CDATA[ Our Company]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>						
+					</nav-item>
+				</nav-item>
+				<nav-item>
+					<id><![CDATA[72]]></id>
+					<name><![CDATA[ What We Do]]></name>
+					<link>
+						<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+						<link-target><![CDATA[_top ]]></link-target>
+					</link>	
+					<tile-id><![CDATA[Tile]]></tile-id>					
+					<nav-item>
+						<id><![CDATA[721]]></id>
+						<name><![CDATA[ Banking]]></name>
+						<link>
+							<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+							<link-target><![CDATA[_top ]]></link-target>
+						</link>	
+						<tile-id><![CDATA[Tile]]></tile-id>							
+					</nav-item>
+				</nav-item>
+			</nav-item>
+		</nav-items>
+	</primary-nav>
+	
+	<footer-nav>
+		<logos>
+			<logo>
+				<path><![CDATA[/content/images/logos/bac-logo1.png]]></path>
+				<alt-text><![CDATA[Bank of America - Enterprise]]></alt-text>
+			</logo>
+			<logo>
+				<path><![CDATA[/content/images/logos/bac-logo1.png]]></path>
+				<alt-text><![CDATA[Bank of America - Enterprise]]></alt-text>
+			</logo>
+			<logo>
+				<path><![CDATA[/content/images/logos/bac-logo1.png]]></path>
+				<alt-text><![CDATA[Bank of America - Enterprise]]></alt-text>
+			</logo>
+			<logo>
+				<path><![CDATA[/content/images/logos/bac-logo1.png]]></path>
+				<alt-text><![CDATA[Bank of America - Enterprise]]></alt-text>
+			</logo>			
+		</logos>
+		<nav-items>
+			<nav-item>
+				<id><![CDATA[footer_1]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>				
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[footer_2]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>				
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[footer_3]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>				
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[footer_4]]></id>
+				<name><![CDATA[ Bank of America - Enterprise]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>	
+				<tile-id><![CDATA[Tile]]></tile-id>				
+			</nav-item>
+		</nav-items>
+		<copyright>Digitas</copyright>
+	</footer-nav>
+	
+</navigation>

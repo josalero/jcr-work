@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+	<id><![CDATA[see-it-in-action-1]]></id>
+	<cms-id><![CDATA[70001]]></cms-id>
+	<template><![CDATA[see-it-in-action-tile]]></template>
+	<content-type><![CDATA[see-it-in-action-tile]]></content-type>
+	<metadata>
+		<authored-date><![CDATA[2012-01-05T16:00:00Z]]></authored-date>
+		<published-date><![CDATA[2012-01-05T16:00:00Z]]></published-date>
+		<expiration-date><![CDATA[2012-01-05T16:00:00Z]]></expiration-date>
+	</metadata>
+
+	<see-it-in-action-tile>
+		<!-- logo -->
+ 		<logo>
+			<path><![CDATA[/images/logo.png]]></path>
+		</logo>
+		<!-- text -->
+		<text>
+			<![CDATA[A description about the see it an action tile	]]>
+		</text>
+ 		<name><![CDATA[BOKA Restaurant Group]]></name>
+ 		<location><![CDATA[Chicago, IL]]></location> 
+
+	</see-it-in-action-tile>
+
+</content-item>

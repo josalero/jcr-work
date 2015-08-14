@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+
+<id><![CDATA[navigation_1]]></id>
+<cms-id><![CDATA[2000001]]></cms-id>
+<template>navigation</template>
+<content-type>navigation</content-type>
+	
+
+<navigation >
+	<logo>
+		<path><![CDATA[images/logo1.jpg]]></path>
+		<alt-text><![CDATA[Flagscape Logo]]></alt-text>
+	</logo>
+	<primary-nav>
+		<nav-items>
+			<nav-item>
+				<id><![CDATA[Microsite]]></id>
+				<name><![CDATA[ Microsite Home]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[commitment]]></id>
+				<name><![CDATA[ Our Commitments]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[leaders_on_ground]]></id>
+				<name><![CDATA[ Leaders on the Ground]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[gallery]]></id>
+				<name><![CDATA[ Gallery]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+		</nav-items>
+	</primary-nav>
+	
+	<secondary-nav>
+		<nav-items>
+			<nav-item>
+				<id><![CDATA[home]]></id>
+				<name><![CDATA[Home]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[our_company]]></id>
+				<name><![CDATA[ Our Company]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[divisions]]></id>
+				<name><![CDATA[ Divisions]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[tools_support]]></id>
+				<name><![CDATA[ Tools & Support]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[benefits_pay]]></id>
+				<name><![CDATA[ Benefits & Pay]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			<nav-item>
+				<id><![CDATA[career_learning]]></id>
+				<name><![CDATA[ Career & Learning]]></name>
+				<link>
+					<link-url><![CDATA[http://www.yahoo.com]]></link-url>
+					<link-target><![CDATA[_top ]]></link-target>
+				</link>
+			</nav-item>
+			
+		</nav-items>
+	</secondary-nav>
+	
+	</navigation>
+	
+</content-item>

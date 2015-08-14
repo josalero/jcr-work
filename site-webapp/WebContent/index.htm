@@ -1,0 +1,449 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>v2 javascriptmvc</title>
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <script type='text/javascript' src='jmvc/steal/steal.js?oee'></script>
+  <link rel="stylesheet" href="css/oee-ie.css">
+  <script>
+    if ( ! window.console ) console = { log: function(){} };
+
+    var devMode = true;
+  </script>
+</head>
+<body>
+  
+  <!-- Header: Floating Navigation Bar -->
+  <div id="header">
+    <ul id="nav">
+      <li class="logo"><a href="http://flagscape.bankofamerica.com/">FLAGSCAPE</a></li>
+      <li class="were-better-when-were-connected"><a href="#!tagline">We&#8217;re better when we&#8217;re connected</a></li>
+      <li class="commitments"><a href="#!were-better-when-were-connected">Our Commitments</a></li>
+      <li class="gallery"><a href="#!gallery">Video<br />Gallery</a></li>
+    </ul>
+  </div>
+
+  <!-- Map: Persistent Navigation along Right Edge of Screen -->
+  <div id="map">
+    <ul>
+    </ul>
+  </div>
+
+  <div id="rightbottom">
+    <a href="#!"></a>
+  </div>
+
+  <div id="scrollBar">
+    <a href="#" id="scrollHandle"></a>
+  </div>
+
+  <!-- Parallax Panels Begin Here -->
+  <div id="container">
+    <div id="cart">
+    <!-- Panel 1: "Tagline" -->
+    <div class="wrapper">
+      <div class="bgFakeNext color-darkSandStone"></div>
+      <div id="tagline" class="vPanel panel color-sandStone" data-rightnavtitle="Tagline">
+        <div class="color-red"></div>
+        <div class="color-lightBlue"></div>
+        <div class="color-darkBlue"></div>
+        <div id="tagline-flag-part1" class="backgroundOverlay"></div>
+        <div id="tagline-flag-part2" class="backgroundOverlay"></div>
+        <div id="tagline-flag-part3" class="backgroundOverlay"></div>
+        <div id="tagline-flag-part4" class="backgroundOverlay"></div>
+        <div id="tagline-intro" class="centered800">
+          <div id="intro-part1">We&#8217;re&nbsp;better&nbsp;when we&nbsp;connect&nbsp;our&nbsp;customers and&nbsp;clients&nbsp;to&nbsp;their hopes, dreams and&nbsp;ambitions. &nbsp;&nbsp;&nbsp;</div>
+          <div id="intro-part2">We&#8217;re&nbsp;better&nbsp;when we&nbsp;listen. Respond. Collaborate. And&nbsp;Help. &nbsp;&nbsp;&nbsp;</div>
+          <div id="intro-part3">Great&nbsp;things&nbsp;lie&nbsp;ahead, because&nbsp;we&nbsp;continue to&nbsp;strive&nbsp;for&nbsp;better, one&nbsp;connection at a time. &nbsp;&nbsp;&nbsp;</div>
+          <div id="intro-part4">We&#8217;re&nbsp;better&nbsp;when we&#8217;re&nbsp;connected. &nbsp;&nbsp;&nbsp;</div>
+        </div>
+        <div class="contents">
+          <div id="tableOfContents" class="centered800 paddingForHeader">
+            <div id="scrollPrompt"></div>
+            <h2>We&#8217;re already on our way&#8230;</h2>
+            <ul><!--
+              --><li id="toc-commitments" class="left"><a href="#!our-commitments"><img src="images/1_video_gallery.jpg" /><span>Our<br />Commitments</span></a></li><!--
+              --><li id="toc-werebetterwhenwereconnected" class="middle"><a href="#!were-better-when-were-connected"><img src="images/2_our_commitments.jpg" /><span>We&#8217;re Better When We&#8217;re Connected</span></a></li><!--
+              --><li id="toc-gallery" class="right"><a href="#!gallery"><img src="images/3_our_story.jpg" /><span>Video<br />Gallery</span></a></li><!--
+            --></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 2: "We're Better When We're Connected" -->
+    <div class="wrapper">
+      <div class="bgFakeNext color-sandStone"></div>
+      <div id="were-better-when-were-connected" class="vPanel panel color-sandStone" data-rightnavtitle="We&#8217;re better when we&#8217;re connected">
+        <div class="backgroundOverlay"></div>
+        <div class="contents">
+          <div id="messageContents" class="centered800 paddingForHeader">
+            <h2 class="text-lightBlue">We&#8217;re better when we&#8217;re connected</h2>
+            <div class="videoContainer big">
+              <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                <img src="/images/video-placeholder-brian-480x270.jpg" />
+                <div class="playIcon"></div>
+              </a>
+              <div class="videoBrandBar"></div>
+            </div>
+            <strong>&#8220;Our Commitments represent <em>how</em> we deliver<br />our strategy and operating principles to serve<br />customers, clients, communities and employees.&#8221;</strong>
+            <div id="signature">
+              <div id="signatureContainer">
+                <div class="printed">
+                  <div class="name">Brian T. Moynihan, Chief Executive Officer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 3: "We're better when we're connected" -->
+    <div class="wrapper">
+      <div class="bgFakeNext color-sandStone message">
+        <div class="color-red"></div>
+        <div class="color-lightBlue"></div>
+        <div class="color-darkBlue"></div>
+      </div>
+      <div id="why-do-we-do-what-we-do" class="vPanel panel color-sandStone" data-rightnavtitle="Why do we do what we do?">
+        <div class="backgroundOverlay"></div>
+        <div class="contents">
+          <div class="container">
+            <div class="paddingForHeader">
+              <!-- <div class="containerPadding">
+                <h2 class="text-lightBlue">Why do we do what we do?</h2>
+                <strong class="text-lightBlue">Our purpose is to help make financial lives better,<br />through the power of every connection.</strong>
+              </div> -->
+              <img src="/images/collage_ede.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 3: "Our Commitments" -->
+    <div id="our-commitments" class="wrapper">
+      <div class="bgFakeNext color-red"></div>
+      <div id="commitments" class="hPanels panel">
+        <div id="commitmentBackgrounds" class="hPanelWindow">
+          <div class="color-sandStone"></div>
+          <div class="color-red"></div>
+          <div class="color-lightBlue"></div>
+          <div class="color-darkBlue"></div>
+        </div>
+        <div class="backgroundOverlay"></div>
+
+        <div class="hPanelWindow">
+
+          <!-- Horizontal Panel 1: "Commitment 1" -->
+          <div id="commitment1" class="hPanel" data-rightnavtitle="We&#8217;re committed to making interactions easier">
+            <div class="window">
+              <div class="contents">
+                <div class="commitmentContainer">
+                  <div class="commitmentContainerVideo">
+                    <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program"><div class="playIcon"></div><img src="images/commitments1_preview.jpg" /></a>
+                  </div>
+                  <div class="commitmentContainerPadding">
+                    <h2 class="text-red">We&#8217;re committed to <strong>making interactions easier</strong></h2>
+                    <p>Our dedication to putting customers&#8217; and clients&#8217; interests first starts with taking to them directly, simply and in a human, straightforward way they'll understand and appretiate. And it's something we'll never stop trying to improve upon.</p>
+                    <div class="commitmentBottomLinks">
+                      <ul><!--
+                        --><li class="consumers"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Banking &amp; Investing</a></li><!--
+                        --><li class="wealth"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Wealth Management</a></li><!--
+                        --><li class="corporate"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>Companies</strong><br />For <strong>Institutional Investors</strong></a></li><!--
+                        --><li class="employees"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For<br /><strong>Each Other</strong></a></li><!--
+                      --></ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel">
+                  <ul>
+                    <li>
+                      <div class="textContainer">
+                        <img src="/images/240x290_boka.jpg" />
+                        <div class="textBlock color-red">
+                          <img src="/images/see_it_in_action.png" class="seeitinaction" />
+                          <strong>Lorem Ipsum Dolor Sit Amet</strong>
+                          <div class="textBody">
+                            <p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</strong></p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolo</p>
+                          </div>
+                        </div>
+                        <div class="caption">
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                          <div class="pageCounter text-darkSand"></div>
+                          <a href="#" class="expand"><span class="accessibility-hidden">Expand Tile</span></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal Panel 2: "Commitment 2" -->
+          <div id="commitment2" class="hPanel" data-rightnavtitle="We&#8217;re committed to making expertise more accessible">
+            <div class="window">
+              <div class="contents">
+                <div class="commitmentContainer">
+                  <div class="commitmentContainerVideo">
+                    <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program"><div class="playIcon"></div><img src="images/commitments2_preview.jpg" /></a>
+                  </div>
+                  <div class="commitmentContainerPadding">
+                    <h2 class="text-red">We&#8217;re committed to <strong>making expertise more accessible</strong></h2>
+                    <p>Our size, skill, and capabilities are unmatched. But to make them truly valuable we must continue to work to make them easily available and understandable to those who need them.</p>
+                    <div class="commitmentBottomLinks">
+                      <ul><!--
+                        --><li class="consumers"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Banking &amp; Investing</a></li><!--
+                        --><li class="wealth"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Wealth Management</a></li><!--
+                        --><li class="corporate"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>Companies</strong><br />For <strong>Institutional Investors</strong></a></li><!--
+                        --><li class="employees"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For<br /><strong>Each Other</strong></a></li><!--
+                      --></ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel">
+                  <ul>
+                    <li>
+                      <div class="textContainer">
+                        <img src="/images/240x290_jal.jpg" />
+                        <div class="textBlock color-darkBlue">
+                          <img src="/images/see_it_in_action.png" class="seeitinaction" />
+                          <strong>Lorem Ipsum Dolor Sit Amet</strong>
+                          <div class="textBody">
+                            <p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</strong></p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolo</p>
+                          </div>
+                        </div>
+                        <div class="caption">
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                          <div class="pageCounter text-darkSand"></div>
+                          <a href="#" class="expand"><span class="accessibility-hidden">Expand Tile</span></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal Panel 3: "Commitment 3" -->
+          <div id="commitment3" class="hPanel" data-rightnavtitle="We&#8217;re committed to making relationships more human">
+            <div class="window">
+              <div class="contents">
+                <div class="commitmentContainer">
+                  <div class="commitmentContainerVideo">
+                    <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program"><div class="playIcon"></div><img src="images/commitments3_preview.jpg" /></a>
+                  </div>
+                  <div class="commitmentContainerPadding">
+                    <h2 class="text-red">We&#8217;re committed to <strong>making relationships more human</strong></h2>
+                    <p>It starts with listening. <em>Really</em> listening to what people need. And never forgetting they&#8217;re not just customers, they&#8217;re human beings. Going forward, we must remember that <em>every</em> interaction we have with them should feel that way; personal and respectful.</p>
+                    <div class="commitmentBottomLinks">
+                      <ul><!--
+                        --><li class="consumers"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Banking &amp; Investing</a></li><!--
+                        --><li class="wealth"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Wealth Management</a></li><!--
+                        --><li class="corporate"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>Companies</strong><br />For <strong>Institutional Investors</strong></a></li><!--
+                        --><li class="employees"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For<br /><strong>Each Other</strong></a></li><!--
+                      --></ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel">
+                  <ul>
+                    <li>
+                      <div class="textContainer">
+                        <img src="/images/240x290_ups.jpg" />
+                        <div class="textBlock color-red">
+                          <img src="/images/see_it_in_action.png" class="seeitinaction" />
+                          <strong>Lorem Ipsum Dolor Sit Amet</strong>
+                          <div class="textBody">
+                            <p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</strong></p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolo</p>
+                          </div>
+                        </div>
+                        <div class="caption">
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                          <div class="pageCounter text-darkSand"></div>
+                          <a href="#" class="expand"><span class="accessibility-hidden">Expand Tile</span></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal Panel 4: "Commitment 4" -->
+          <div id="commitment4" class="hPanel" data-rightnavtitle="We&#8217;re committed to success that is shared">
+            <div class="window">
+              <div class="contents">
+                <div class="commitmentContainer">
+                  <div class="commitmentContainerVideo">
+                    <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program"><div class="playIcon"></div><img src="images/commitments4_preview.jpg" /></a>
+                  </div>
+                  <div class="commitmentContainerPadding">
+                    <h2 class="text-red">We&#8217;re committed to <strong>success that is shared</strong></h2>
+                    <p>What&#8217;s good for our customers is good for the community. And what&#8217;s good for the community is, in turn, good for us. Let&#8217;s continue to focus on making positive decisions that benefit everyone and help build long lasting relationships.</p>
+                    <div class="commitmentBottomLinks">
+                      <ul><!--
+                        --><li class="consumers"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Banking &amp; Investing</a></li><!--
+                        --><li class="wealth"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>People</strong>:<br />Wealth Management</a></li><!--
+                        --><li class="corporate"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For <strong>Companies</strong><br />For <strong>Institutional Investors</strong></a></li><!--
+                        --><li class="employees"><a href="#" data-hover="Nunc est bibendum, nunc pede libero pulsanda tellus, nunc Saliaribus ornare pulvinar deorum tempus erat dapibus, sodales. antehac nefas depromere Caecubum cellis avitis, dum Capitolio regina dementis ruinas funus et imperio parabat contaminato cum grege turpium morbo virorum, quidlibet inpotens sperare fortunaque dulci ebria. sed minuit furorem vix una sospes navis ab ignibus mentemque lymphatam Mareotio redegit in veros timores Caesar ab Italia volantem remis adurgens, accipiter velut mollis columbas aut leporem citus venator in campis nivalis Haemoniae, daret ut catenis fatale monstrum: quae generosius perire quaerens nec muliebriter expavit ensem nec latentis classe cita reparavit oras, ausa et iacentem visere regiam voltu sereno, fortis et asperas tractare serpentes, ut atrum corpore conbiberet venenum, deliberata morte ferocior: saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho.">For<br /><strong>Each Other</strong></a></li><!--
+                      --></ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel">
+                  <ul>
+                    <li>
+                      <div class="textContainer">
+                        <img src="/images/240x290_boka.jpg" />
+                        <div class="textBlock color-darkBlue">
+                          <img src="/images/see_it_in_action.png" class="seeitinaction" />
+                          <strong>Lorem Ipsum Dolor Sit Amet</strong>
+                          <div class="textBody">
+                            <p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</strong></p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolo</p>
+                          </div>
+                        </div>
+                        <div class="caption">
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                          <div class="pageCounter text-darkSand"></div>
+                          <a href="#" class="expand"><span class="accessibility-hidden">Expand Tile</span></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="videoContainer">
+                        <a href="#" class="videoPlaceholder" data-videoid="city-arts" rel="city-arts" data-videotitle="City Arts Program">
+                          <img src="/images/video-placeholder-480x270.jpg" />
+                          <div class="playIcon"></div>
+                        </a>
+                        <div class="videoBrandBar"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Panel 5: "Gallery" -->
+    <div class="wrapper">
+      <div class="bgFakeNext color-lightBlue"></div>
+      <div id="gallery" class="vPanel panel color-red" data-rightnavtitle="Video Gallery">
+        <div class="backgroundOverlay"></div>
+        <div class="contents">
+          <div class="bottom">
+            <div class="centered800">
+              <ul class="thumbnails">
+                <li class="first"><a href="#" class="videoPlaceholder" data-videoid="city-arts" data-videotitle="City Arts Program"><img src="images/commitments1_preview.jpg" /><div class="playIcon"></div></a></li><!--
+                --><li><a href="#" class="videoPlaceholder" data-videoid="12345" data-videotitle="City Arts Program"><img src="images/commitments2_preview.jpg" /><div class="playIcon"></div></a></li><!--
+                --><li class="last"><a href="#" class="videoPlaceholder" data-videoid="city-arts" data-videotitle="City Arts Program"><img src="images/commitments3_preview.jpg" /><div class="playIcon"></div></a></li><!--
+                --><li class="first"><a href="#" class="videoPlaceholder" data-videoid="city-arts" data-videotitle="City Arts Program"><img src="images/commitments4_preview.jpg" /><div class="playIcon"></div></a></li><!--
+                --><li><a href="#" class="videoPlaceholder" data-videoid="city-arts" data-videotitle="City Arts Program"><img src="images/commitments1_preview.jpg" /><div class="playIcon"></div></a></li><!--
+                --><li class="last"><a href="#" class="videoPlaceholder" data-videoid="city-arts" data-videotitle="City Arts Program"><img src="images/commitments2_preview.jpg" /><div class="playIcon"></div></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of #container -->
+    </div>
+  </div>
+  <div class="tempTranscriptContainer" rel="city-arts">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+  </div>
+  <!--
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/jquery-ui-1.9.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  -->
+</body>
+</html>

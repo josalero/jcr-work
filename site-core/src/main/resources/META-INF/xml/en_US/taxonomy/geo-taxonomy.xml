@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taxonomy xmlns="http://www.bac.com/oee/content">
+	<id>geo-taxonomy</id>
+	<name>Geographic Areas Taxonomy</name>
+	<description><![CDATA[This taxonomy describes Geographic Areas ....]]></description>
+	<geo-taxonomy>
+		<geo-area>
+			<id>us</id>
+			<name>United States</name>
+			<countries>
+				<country>
+					<id>us</id>
+					<name>United States</name>
+					<locale>en_US</locale>
+					<states>
+						<state>
+							<id>al</id>
+							<name>Alabama</name>
+						</state>
+						<state>
+							<id>ak</id>
+							<name>Alaska</name>
+						</state>
+						<state>
+							<id>az</id>
+							<name>Arizona</name>
+						</state>
+						<state>
+							<id>ar</id>
+							<name>Arkansas</name>
+						</state>
+						<state>
+							<id>ca</id>
+							<name>California</name>
+						</state>
+						<state>
+							<id>co</id>
+							<name>Colorado</name>
+						</state>
+						<state>
+							<id>ct</id>
+							<name>Connecticut</name>
+						</state>
+						<state>
+							<id>de</id>
+							<name>Delaware</name>
+						</state>
+						<state>
+							<id>fl</id>
+							<name>Florida</name>
+						</state>
+						<state>
+							<id>ga</id>
+							<name>Georgia</name>
+						</state>
+						<state>
+							<id>hi</id>
+							<name>Hawaii</name>
+						</state>
+						<state>
+							<id>id</id>
+							<name>Idaho</name>
+						</state>
+						<state>
+							<id>il</id>
+							<name>Illinois</name>
+						</state>
+						<state>
+							<id>in</id>
+							<name>Indiana</name>
+						</state>
+						<state>
+							<id>ia</id>
+							<name>Iowa</name>
+						</state>
+						<state>
+							<id>ks</id>
+							<name>Kansas</name>
+						</state>
+						<state>
+							<id>ky</id>
+							<name>Kentucky</name>
+						</state>
+						<state>
+							<id>la</id>
+							<name>Louisiana</name>
+						</state>
+						<state>
+							<id>me</id>
+							<name>Maine</name>
+						</state>
+						<state>
+							<id>md</id>
+							<name>Maryland</name>
+						</state>
+						<state>
+							<id>ma</id>
+							<name>Massachusetts</name>
+						</state>
+						<state>
+							<id>mi</id>
+							<name>Michigan</name>
+						</state>
+						<state>
+							<id>mn</id>
+							<name>Minnesota</name>
+						</state>
+						<state>
+							<id>ms</id>
+							<name>Mississippi</name>
+						</state>
+						<state>
+							<id>mo</id>
+							<name>Missouri</name>
+						</state>
+						<state>
+							<id>mt</id>
+							<name>Montana</name>
+						</state>
+						<state>
+							<id>ne</id>
+							<name>Nebraska</name>
+						</state>
+						<state>
+							<id>nv</id>
+							<name>Nevada</name>
+						</state>
+						<state>
+							<id>nh</id>
+							<name>New Hampshire</name>
+						</state>
+						<state>
+							<id>nj</id>
+							<name>New Jersey</name>
+						</state>
+						<state>
+							<id>nm</id>
+							<name>New Mexico</name>
+						</state>
+						<state>
+							<id>ny</id>
+							<name>New York</name>
+						</state>
+						<state>
+							<id>nc</id>
+							<name>North Carolina</name>
+						</state>
+						<state>
+							<id>nd</id>
+							<name>North Dakota</name>
+						</state>
+						<state>
+							<id>oh</id>
+							<name>Ohio</name>
+						</state>
+						<state>
+							<id>ok</id>
+							<name>Oklahoma</name>
+						</state>
+						<state>
+							<id>or</id>
+							<name>Oregon</name>
+						</state>
+						<state>
+							<id>pa</id>
+							<name>Pennsylvania</name>
+						</state>
+						<state>
+							<id>ri</id>
+							<name>Rhode Island</name>
+						</state>
+						<state>
+							<id>sc</id>
+							<name>South Carolina</name>
+						</state>
+						<state>
+							<id>sd</id>
+							<name>South Dakota</name>
+						</state>
+						<state>
+							<id>tn</id>
+							<name>Tennessee</name>
+						</state>
+						<state>
+							<id>tx</id>
+							<name>Texas</name>
+						</state>
+						<state>
+							<id>ut</id>
+							<name>Utah</name>
+						</state>
+						<state>
+							<id>vt</id>
+							<name>Vermont</name>
+						</state>
+						<state>
+							<id>va</id>
+							<name>Virginia</name>
+						</state>
+						<state>
+							<id>wa</id>
+							<name>Washington</name>
+						</state>
+						<state>
+							<id>wv</id>
+							<name>West Virginia</name>
+						</state>
+						<state>
+							<id>wi</id>
+							<name>Wisconsin</name>
+						</state>
+						<state>
+							<id>wy</id>
+							<name>Wyoming</name>
+						</state>
+					</states>
+					<metro-areas>
+						<metro-area>
+							<id>baltimore</id>
+							<name>Baltimore, MD</name>
+						</metro-area>
+						<metro-area>
+							<id>boston</id>
+							<name>Boston, MA</name>
+						</metro-area>
+						<metro-area>
+							<id>charlotte</id>
+							<name>Charlotte, NC</name>
+						</metro-area>
+						<metro-area>
+							<id>chicago</id>
+							<name>Chicago, IL</name>
+						</metro-area>
+						<metro-area>
+							<id>dallas</id>
+							<name>Dallas, TX</name>
+						</metro-area>
+						<metro-area>
+							<id>south-florida</id>
+							<name>South Florida, FL</name>
+						</metro-area>
+						<metro-area>
+							<id>greater-los-angeles</id>
+							<name>Greater Los Angeles, CA</name>
+						</metro-area>
+						<metro-area>
+							<id>new-york</id>
+							<name>New York, NY</name>
+						</metro-area>
+						<metro-area>
+							<id>san-diego</id>
+							<name>San Diego, CA</name>
+						</metro-area>
+						<metro-area>
+							<id>san-francisco-bay-area</id>
+							<name>San Francisco Bay Area, CA</name>
+						</metro-area>
+						<metro-area>
+							<id>seattle</id>
+							<name>Seattle, WA</name>
+						</metro-area>
+						<metro-area>
+							<id>greater-washington-dc</id>
+							<name>Greater Washington, D.C.</name>
+						</metro-area>
+						<metro-area>
+							<id>phoenix-az</id>
+							<name>Phoenix, AZ</name>
+						</metro-area>
+						<metro-area>
+							<id>detroit-mi</id>
+							<name>Detroit, MI</name>
+						</metro-area>
+					</metro-areas>
+				</country>
+			</countries>
+		</geo-area>
+		<geo-area>
+			<id>asia-pacific</id>
+			<name>Asia Pacific</name>
+			<countries>
+			</countries>
+		</geo-area>	
+		<geo-area>
+			<id>europe-middle-east-africa</id>
+			<name>Europe, Middle East &amp; Africa</name>
+			<countries>
+			</countries>
+		</geo-area>
+		<geo-area>
+			<id>latin-america</id>
+			<name>Latin America</name>
+			<countries>
+			</countries>
+		</geo-area>	
+	</geo-taxonomy>
+</taxonomy>

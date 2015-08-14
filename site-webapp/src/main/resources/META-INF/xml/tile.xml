@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tile locale="en_US" xmlns="http://www.bac.com/flag/oee/content">
+	<id><![CDATA[tile_1]]></id>
+	<heading><![CDATA[ Testing Marshaller ]]></heading>
+	<image>
+		<path><![CDATA[/content/images/logos/bac-logo1.png]]></path>
+		<alt-text><![CDATA[ Testing Marshaller ]]></alt-text>
+	</image>
+	<description><![CDATA[ Testing Marshaller ]]></description>
+	<link>
+		<link-text><![CDATA[ Testing Marshaller ]]></link-text>
+		<link-url><![CDATA[http://www.yahoo.com ]]></link-url>
+		<link-target><![CDATA[_top ]]></link-target>	
+	</link>
+</tile>

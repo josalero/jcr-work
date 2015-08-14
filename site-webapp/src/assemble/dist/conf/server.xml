@@ -1,0 +1,17 @@
+
+	
+  <GlobalNamingResources>
+
+    <!-- Note: Insert the following definitions into your tomcat's server.xml <GlobalNamingResources> section -->
+	
+	<Resource name="jdbc/AmexSrtSiteDS" auth="Container" 
+		type="javax.sql.DataSource" username="OEE_DB_USER" password="[DB_USER_PASSWORD]" 
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+		url="jdbc:sqlserver://[DB_HOST]\SQL2008;DatabaseName=OEE_DB;SelectMethod=cursor;" 
+		maxActive="8"/>
+
+	<Environment name="amex.jackrabbit.repository.path" value="file:[OEE_HOME]/oee-content-repository" type="java.lang.String" override="false"/> 
+	<Environment name="open.deploy.receiver.directory.path" value="[OEE_HOME]/cmscontent" type="java.lang.String" override="false"/>
+
+  </GlobalNamingResources>
+

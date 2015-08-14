@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app id="starter" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<display-name>FLAG Online Employee Experience</display-name>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath*:applicationContext-ui.xml</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>org.apache.tiles.impl.BasicTilesContainer.DEFINITIONS_CONFIG</param-name>
+		<param-value>/WEB-INF/tiles.xml</param-value>
+	</context-param>
+
+	<!-- Filters -->
+	
+	
+	<filter>
+		<filter-name>struts2-cleanup</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ActionContextCleanUp</filter-class>
+	</filter>
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+	</filter>
+
+ 	<filter>
+		<filter-name>site-view-resolver</filter-name>
+		<filter-class>com.amex.srt.web.filter.SiteViewResolverFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>site-view-resolver</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+
+	<!-- Listeners -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>org.apache.struts2.tiles.StrutsTilesListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>com.amex.srt.ApplicationManager</listener-class>
+	</listener>
+
+	<!-- Servlets -->
+	
+	<servlet>
+		<servlet-name>jspSupportServlet</servlet-name>
+		<servlet-class>org.apache.struts2.views.JspSupportServlet</servlet-class>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+	
+	
+	
+	<servlet>
+    	<servlet-name>JCRContentRepoExplorer</servlet-name>
+		<servlet-class>com.amex.srt.web.jcr.JCRContentRepoExplorer</servlet-class>
+        <init-param>
+            <param-name>resource-path-prefix</param-name>
+            <param-value>/repository</param-value>
+            <description>
+                defines the prefix for spooling resources out of the repository.
+            </description>
+        
+            <param-name>resource-config</param-name>
+            <param-value>/WEB-INF/config.xml</param-value>
+            <description>
+                Defines various dav-resource configuration parameters.
+            </description>
+            
+             <param-name>missing-auth-mapping</param-name>
+             <param-value>admin:admin</param-value>
+            
+        </init-param>
+        
+        <load-on-startup>4</load-on-startup>
+    </servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>JCRContentRepoExplorer</servlet-name>
+		<url-pattern>/default/*</url-pattern>
+	</servlet-mapping>
+
+
+	<session-config>
+		<session-timeout>20</session-timeout>
+	</session-config>
+
+	<!-- Welcome file lists -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<!-- 
+  	<error-page>
+	  <error-code>404</error-code>
+	  <location>/error404.jsp</location>
+  	</error-page>
+  	
+  	<error-page>
+	  <error-code>500</error-code>
+	  <location>/error500.jsp</location>
+  	</error-page>
+	 -->
+ 	<resource-ref>
+		<description>FlagOEESiteDS DB Connection</description>
+		<res-ref-name>jdbc/AmexSrtSiteDS</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>  	
+</web-app>

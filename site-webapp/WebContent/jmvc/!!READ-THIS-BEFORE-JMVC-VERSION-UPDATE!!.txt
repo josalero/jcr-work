@@ -1,0 +1,35 @@
+!!!Fix on steal.js!!!
+=====================
+
+on Line 2056 This code snippet:
+
+// either instrument is in this page (if we're the window opened from steal.browser), or its opener has it
+if( options.instrument || (!options.browser && win.top && win.top.opener && 
+              win.top.opener.steal && win.top.opener.steal.options.instrument) ) {
+       // force startFiles to load before instrument
+       steals.push(function(){}, {
+              src: "steal/instrument",
+              waits: true
+       });
+}
+
+was edited to:
+
+try{
+       // either instrument is in this page (if we're the window opened from steal.browser), or its opener has it
+       if( options.instrument || (!options.browser && win.top && win.top.opener && 
+                     win.top.opener.steal && win.top.opener.steal.options.instrument) ) {
+              // force startFiles to load before instrument
+              steals.push(function(){}, {
+                     src: "steal/instrument",
+                     waits: true
+              });
+       }
+}catch(err){
+ 
+}
+
+THIS IS A MAJOR FIX. 
+WITHOUT IT THE WEBSITE WILL BREAK WHEN REFERENCED BY EXTERNAL SITES.
+
+Be sure to verify if this bug still exists or not before deploying the most recent version of jmvc.

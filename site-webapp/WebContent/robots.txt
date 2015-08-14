@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /cool1 
+Disallow: /css
+Disallow: /ejs-test
+Disallow: /util
+Allow: /listing
+
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+Allow: /listing
+
+User-agent: Adsbot-Google
+Allow: /
+Allow: /listing
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /listing
+
+User-agent: Googlebot-Mobile
+Allow: /
+Allow: /listing
+
+User-Agent: GOCANES
+Allow: /
+Allow: /listing

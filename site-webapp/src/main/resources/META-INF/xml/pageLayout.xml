@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page-layout locale="en_US" xmlns="http://www.bac.com/flag/oee/content">
+	<id><![CDATA[open_layout_1]]></id>
+	<metadata>		
+		<metakeywords><![CDATA[ Testing Marshaller ]]></metakeywords>
+		<metadescription><![CDATA[ Testing Marshaller ]]></metadescription>
+		<htmltitle><![CDATA[ My first web page ]]></htmltitle>	
+	</metadata>
+	<content>
+		<![CDATA[Lorem ipsum onsectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat]]>
+	</content>
+</page-layout>

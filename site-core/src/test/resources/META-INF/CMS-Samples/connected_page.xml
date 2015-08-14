@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><content-item locale="en_US" xmlns="http://www.bac.com/oee/content">
+<id><![CDATA[connected_page]]></id>
+<cms-id>90000004</cms-id>
+<template><![CDATA[connected_page]]></template>
+<content-type>page</content-type>
+
+
+							
+								
+								
+								<metadata>
+
+										 
+											<htmltitle><![CDATA[Connected Page]]></htmltitle>
+											
+
+										
+												
+
+										 
+												
+
+														
+																	 
+								</metadata>
+
+								
+
+
+
+
+
+
+
+<page>
+
+
+			
+
+<panels>
+
+ 
+
+	 <panel>
+
+	 <panel-name><![CDATA[We&#8217;re better when we&#8217;re connected]]></panel-name>
+
+	<sections>
+
+      
+	
+
+		  <section>
+				
+				
+				
+							
+								
+
+									
+
+									
+										<paragraph>
+
+											
+									 
+												<heading><![CDATA[We&#8217;re better when we&#8217;re connected]]></heading>
+												
+
+
+									 
+												
+
+												
+																															
+										</paragraph>
+								
+									
+									
+								
+								    
+							
+
+				
+
+
+				
+					
+						
+						<tiles>
+						
+
+								    	
+
+												 
+														 
+															<tile-id><![CDATA[10000004]]></tile-id>
+															
+														
+												 
+				
+																
+												
+						 
+						</tiles>
+
+				
+
+
+				
+
+
+				
+					
+						
+						
+
+						
+
+								    
+												
+						 
+
+
+						
+
+				
+
+
+				
+
+
+								   
+								
+	</section>
+
+	
+
+
+
+	</sections>
+
+	</panel>
+
+
+
+
+
+</panels>
+
+</page>
+
+</content-item>

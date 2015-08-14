@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<xs:schema elementFormDefault="qualified" targetNamespace="http://www.amex.com/srt/content" xmlns="http://www.amex.com/srt/content" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:simpleType name="targetEnum">
+		<xs:annotation>
+			<xs:documentation>Enumeration that defines link target types</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="_top"/>
+			<xs:enumeration value="_self"/>
+			<xs:enumeration value="_blank"/>
+			<xs:enumeration value="_new"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="image">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="1" name="path" type="xs:anyURI"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="alt-text" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="caption" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="image-type" type="imageTypeEnum"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="link" type="hrefLink"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="target" type="targetEnum"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="hrefLink">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="0" name="link-text" type="xs:anyURI" />
+			<xs:element maxOccurs="1" minOccurs="0" name="link-url" type="xs:anyURI" />
+			<xs:element maxOccurs="1" minOccurs="0" name="link-target" type="targetEnum" />
+			<xs:element maxOccurs="1" minOccurs="0" name="screen-reader-text" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="imageTypeEnum">
+		<xs:restriction base="xs:string">
+
+			<xs:enumeration value="image-type-87x87" />
+			<xs:enumeration value="image-type-111x167" />
+			<xs:enumeration value="image-type-127x87" />
+			<xs:enumeration value="image-type-139x139" />
+			<xs:enumeration value="image-type-155x73" />
+			<xs:enumeration value="image-type-195x" />
+			<xs:enumeration value="image-type-242x167" />
+			<xs:enumeration value="image-type-266x126" />
+			<xs:enumeration value="image-type-440x248" />
+			<xs:enumeration value="image-type-480x353" />
+			<xs:enumeration value="image-type-878x494" />
+
+			<!-- On-Hover Tile Image Sizes: Need to be defined!!! -->
+
+			<xs:enumeration value="image-type-180x90" />
+
+		</xs:restriction>
+	</xs:simpleType>
+	
+</xs:schema>
