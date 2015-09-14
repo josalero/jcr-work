@@ -6,16 +6,5 @@
 	uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%><%@ taglib
 	prefix="s" uri="/struts-tags"%>
 
-	<table>
-		<tr>
-			<th>Name</th>
-			<th>Description</th>
-		</tr>	
-	<c:forEach var="row" items="${creditPage.table.rowList}" >	
-		<tr>
-			<td>${row.name}</td>
-			<td>${row.description}</td>
-		</tr>	
-	</c:forEach>
-		
-	</table>
+	${page.pageName}<br/>
+	${page.pageDescription}

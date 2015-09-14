@@ -32,6 +32,8 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>${maven.war.plugin.version}</version>
 				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
 					<warSourceDirectory>${basedir}/WebContent</warSourceDirectory>
 					<webappDirectory>${basedir}/WebContent</webappDirectory>
 					<useCache>true</useCache>
@@ -240,7 +242,7 @@
 			<artifactId>jcl-over-slf4j</artifactId>
 			<version>1.6.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
@@ -311,9 +313,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>5.1.16</version>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.16</version>
 		</dependency>
 		<dependency>
 			<groupId>org.quartz-scheduler</groupId>

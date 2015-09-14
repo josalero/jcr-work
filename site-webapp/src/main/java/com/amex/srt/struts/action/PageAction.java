@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.amex.srt.content.ContentItem;
 import com.amex.srt.content.ContentManager;
-import com.amex.srt.content.CreditPage;
+import com.amex.srt.content.Page;
 import com.opensymphony.xwork2.ActionContext;
 
 // TODO: Auto-generated Javadoc
@@ -32,13 +32,14 @@ public class PageAction extends AbstractBaseAction {
 	@Override
 	public String execute() {
 
-		ContentItem contentItem = contentManager.retrievePageByURL("/amex/srt/index.html");
+		//ContentItem contentItem = contentManager.retrievePageByURL("/amex/srt/index.html");
 
+		ContentItem contentItem = contentManager.retrievePageByURL("/about-us/about-us");
 		if (contentItem != null){
 			actionContext = ActionContext.getContext();
 			
 			actionContext.put("index", contentItem);
-			actionContext.put("creditPage", (CreditPage)contentItem.getContent());
+			actionContext.put("page", (Page)contentItem.getContent());
 		}
 	
 		return SUCCESS;

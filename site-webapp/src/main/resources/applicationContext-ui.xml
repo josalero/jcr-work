@@ -23,8 +23,10 @@
 		<property name="searchSystemEnvironment" value="true" /> 
 	</bean>
 		
-	<jee:jndi-lookup id="amex.jackrabbit.repository.path" jndi-name="amex.jackrabbit.repository.path" />	
-	<jee:jndi-lookup id="open.deploy.receiver.directory.path" jndi-name="open.deploy.receiver.directory.path" />	
+	<jee:jndi-lookup id="amex.jackrabbit.repository.path" jndi-name="amex.jackrabbit.repository.path" 
+					 default-value="file:/Users/Jose/jackrabbit"/>	
+	<jee:jndi-lookup id="open.deploy.receiver.directory.path" jndi-name="open.deploy.receiver.directory.path" 
+					 default-value="C:\Users\Jose\cms"/>	
 
 	<import resource="classpath:/applicationContext-core.xml" />
 		
